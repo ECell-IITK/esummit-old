@@ -1,9 +1,4 @@
 /* =================================================================== */
-/*
-/*  KREO v1.0 Main Stylesheet
-/*  url: styleshout.com
-/*  10-12-2015
-/*
 /*	 TOC:
 /*  01. =webfonts and iconfonts
 /*  02. =document setup
@@ -668,7 +663,7 @@ header .logo a {
 	width: 114px;
 	height: 66px;
 	background: url("../images/logoK@2x.png") no-repeat center;
-	background-size: 61px 14px;
+	background-size: 85px 38px;
 }
 
 /* header social */
@@ -2472,15 +2467,12 @@ footer .info {
 }
 
 footer .footer-logo {
-	width: 100px;
-	height: 23px;
+	width: 200px;
+	height: 100px;
 	background: url("../images/logoW@2x.png") no-repeat center;
-	background-size: 100px 23px;
+	background-size: 200px 70px;
 	margin: 0 auto 21px;
 	display: block;
-	filter: alpha(opacity=10);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
-	opacity: 0.1;
 	zoom: 1;
 }
 
