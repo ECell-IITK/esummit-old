@@ -1490,6 +1490,17 @@ ul#nav li.current a:after {
 	margin: 0 auto;  	
 }
 
+.linkboxadj{
+     position:sticky;
+     top:600px;          
+}
+
+.popup-modal-height {
+        min-height: 630px; 
+        max-height: 650px;	
+        overflow:auto;
+}
+
 .popup-modal .media {
 	position: relative;
 }
