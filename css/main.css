@@ -13,6 +13,8 @@
 /*  11. =testimonials
 /*  12. =contact
 /*  13. =footer
+/*  14. =Past Visitors
+ */
 /*
 /* =================================================================== */
 
@@ -2544,3 +2546,35 @@ footer .social-links li:first-child {
   position: relative;
   right: -5px;
 }
+/*14. Past Visitors
+-------------------------------------------------------------------------------*/
+#visitors{
+	margin: 100px 0 0 0;
+}
+#visitor-slider{
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+.visitor {
+	overflow: hidden;
+	height: 400px;
+}
+.visitor img{
+	width: 260px;
+	height: 260px;
+	position: center;
+	border-radius: 50%;
+}
+.visitor h3{
+	text-align: center;
+	margin-bottom: 0;
+	padding: 0 0 0 0;
+}
+.visitor h4{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: #e4b101;
+}
+/*
+--------------------------------------------------------------------*/
