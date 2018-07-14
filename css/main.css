@@ -13,6 +13,8 @@
 /*  11. =testimonials
 /*  12. =contact
 /*  13. =footer
+/*  14. =Past Speakers
+ */
 /*
 /* =================================================================== */
 
@@ -1070,8 +1072,8 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width: 768px) {
   #hero {
-	/* min-height: auto; */
-	height: 630px;
+    /* min-height: auto; */
+    height: 630px;
   }
 
   .hero-content {
@@ -2544,3 +2546,45 @@ footer .social-links li:first-child {
   position: relative;
   right: -5px;
 }
+/*14. Past Speakers
+-------------------------------------------------------------------------------*/
+#speakers {
+  padding: 120px 0 0 0;
+}
+
+.slider-wrapper {
+  width: 100%;
+  max-width: 1064px;
+  margin: 40px auto 0 auto;
+  overflow: hidden;
+}
+
+#speaker-slider {
+  width: 100%;
+  margin: 0;
+  padding: 0 28px;
+}
+
+.speaker {
+  overflow: hidden;
+  height: 400px;
+}
+.speaker img {
+  width: 200px;
+  height: 200px;
+  position: center;
+  border-radius: 50%;
+}
+.speaker h3 {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0 0 0 0;
+}
+.speaker h4 {
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  color: #e4b101;
+}
+/*
+--------------------------------------------------------------------*/
