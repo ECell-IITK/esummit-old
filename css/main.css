@@ -1804,13 +1804,13 @@ ul#nav li.current a:after {
   font-weight: normal;
   line-height: 18px;
   color: #969696;
-  margin: 0;
+  margin-top: 12px;
   padding: 0;
 }
 
 #team-wrapper .member-social li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 24px;
 }
 
 #team-wrapper .member-social li a {
