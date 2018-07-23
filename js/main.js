@@ -23,16 +23,14 @@
 
     })
 
-
-  var doc = document.documentElement;
-	$(".lazyload").Lazy();
-	doc.setAttribute('data-useragent', navigator.userAgent);
-
-
   	/*----------------------------------------------------*/
   	/* Flexslider
   	/*----------------------------------------------------*/
   	$(window).load(function() {
+
+		var myLazyLoad = new LazyLoad({
+			elements_selector: ".lazyload"
+		});
 
 	  	$('#hero-slider').flexslider({
 	   	namespace: "flex-",
