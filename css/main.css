@@ -1751,9 +1751,7 @@ ul#nav li.current a:after {
   margin-top: 12px;
 }
 
-#team-wrapper 
-
-#team-wrapper .member h3 {
+#team-wrapper #team-wrapper .member h3 {
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -2550,9 +2548,9 @@ footer .social-links li:first-child {
   position: relative;
   right: -5px;
 }
-/*14. Past Speakers
+/*14. Past Speakers and Sponsors
 -------------------------------------------------------------------------------*/
-#speakers {
+#speakers, #sponsors {
   padding: 120px 0 0 0;
 }
 
@@ -2563,13 +2561,13 @@ footer .social-links li:first-child {
   overflow: hidden;
 }
 
-#speaker-slider {
+#speaker-slider, #sponsor-slider {
   width: 100%;
   margin: 0;
   padding: 0 28px;
 }
 
-.speaker {
+.speaker, .sponsor {
   overflow: hidden;
   height: 400px;
 }
@@ -2579,16 +2577,101 @@ footer .social-links li:first-child {
   position: center;
   border-radius: 50%;
 }
-.speaker h3 {
+.sponsor img {
+  width: 200px;
+  height: 100px;
+  position: center;
+}
+.speaker h3, .sponsor h3 {
   text-align: center;
   margin-bottom: 0;
   padding: 0 0 0 0;
 }
-.speaker h4 {
+.speaker h4, .sponsor h4 {
   text-align: center;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   color: #e4b101;
 }
+#speakers .slider-wrapper > div {
+  margin-bottom: 100px;
+}
+#sponsors .slider-wrapper > div {
+  background: white;
+  display: flex;
+}
 /*
 --------------------------------------------------------------------*/
+/* ===================================================================
+ *  15. clients - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#clients {
+  background-color: #e9eaea;
+  padding: 4.8rem 0 4.8rem;
+}
+#clients .client-lists .owl-item {
+  opacity: 0.6;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+#clients .client-lists .owl-item:hover {
+  opacity: 1;
+}
+#clients .owl-carousel .owl-nav {
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+#clients .owl-carousel .owl-nav [class*="owl-"] {
+  color: #ffffff;
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 1.4rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin: 0.6rem;
+  padding: 0 10px;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#clients .owl-carousel .owl-nav [class*="owl-"]:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  text-decoration: none;
+}
+#clients .owl-carousel .owl-nav .disabled {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+#clients .owl-carousel .owl-nav.disabled + .owl-dots {
+  margin-top: 1.8rem;
+}
+#clients .owl-carousel .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+#clients .owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#clients .owl-carousel .owl-dots .owl-dot span {
+  width: 9px;
+  height: 9px;
+  background-color: #959595;
+  margin: 6px 6px;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 50%;
+}
+#clients .owl-carousel .owl-dots .owl-dot.active span,
+#clients .owl-carousel .owl-dots .owl-dot:hover span {
+  background-color: #000000;
+}
