@@ -80,6 +80,8 @@
 
   var folder = "images/sponsors/";
 
+	$(window).load(() =>{ 
+	
   $.ajax({
     url: folder,
     success: function(data) {
@@ -111,6 +113,7 @@
       });
     }
   });
+	})
 
   new skrolr("speaker-slider", {
     waitTime: 2000,
