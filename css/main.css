@@ -132,7 +132,7 @@ p img {
 }
 
 p.lead {
-  font: 20px/36px "merriweather-light", serif;
+  font: 20px/36px "merriweather-regular", serif;
   color: #707273;
 }
 
@@ -420,6 +420,8 @@ button {
 
 input[type="text"],
 input[type="password"],
+input[type="tel"],
+input[type="number"],
 input[type="email"],
 textarea,
 select {
@@ -561,7 +563,7 @@ hr {
 }
 
 .section-head p {
-  font: 20px/36px "merriweather-light", serif;
+  font: 20px/36px "merriweather-regular", serif;
   width: 95%;
 }
 
@@ -577,7 +579,7 @@ hr {
   }
 
   .section-head p {
-    font: 18px/36px "merriweather-light", serif;
+    font: 18px/36px "merriweather-regular", serif;
     width: auto;
   }
 
@@ -589,7 +591,7 @@ hr {
 
 @media only screen and (max-width: 600px) {
   .section-head p {
-    font: 17px/33px "merriweather-light", serif;
+    font: 17px/33px "merriweather-regular", serif;
     width: auto;
   }
 }
@@ -994,7 +996,7 @@ ul#nav li.current a:after {
 }
 
 #hero-slider .slides .flex-caption h3 {
-  font: 18px/1.9 "merriweather-light", sans-serif;
+  font: 18px/1.9 "merriweather-regular", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
   width: 85%;
@@ -1063,7 +1065,7 @@ ul#nav li.current a:after {
   }
 
   #hero-slider .slides .flex-caption h3 {
-    font: 16px/1.9 "merriweather-light", sans-serif;
+    font: 16px/1.9 "merriweather-regular", sans-serif;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1094,7 +1096,7 @@ ul#nav li.current a:after {
   }
 
   #hero-slider .slides .flex-caption h3 {
-    font: 16px/1.9 "merriweather-light", sans-serif;
+    font: 16px/1.9 "merriweather-regular", sans-serif;
     width: 85%;
   }
 }
@@ -1118,7 +1120,7 @@ ul#nav li.current a:after {
   }
 
   #hero-slider .slides .flex-caption h3 {
-    font: 15px/1.9 "merriweather-light", sans-serif;
+    font: 15px/1.9 "merriweather-regular", sans-serif;
     width: 90%;
   }
 }
@@ -1876,14 +1878,14 @@ ul#nav li.current a:after {
 }
 
 #call-to-action p {
-  font: 20px/36px "merriweather-light", serif;
+  font: 20px/36px "merriweather-regular", serif;
   color: #707273;
   width: 75%;
 }
 
 #call-to-action .section-ads {
   padding-top: 36px;
-  border-top: 1px dotted rgba(150, 150, 150, 0.1);
+  /* border-top: 1px dotted rgba(150, 150, 150, 0.1); */
 }
 
 #call-to-action h2 {
@@ -1944,7 +1946,7 @@ ul#nav li.current a:after {
   }
 
   #call-to-action p {
-    font: 18px/33px "merriweather-light", serif;
+    font: 18px/33px "merriweather-regular", serif;
     width: 80%;
   }
 }
@@ -1960,7 +1962,7 @@ ul#nav li.current a:after {
   }
 
   #call-to-action p {
-    font: 16px/30px "merriweather-light", serif;
+    font: 16px/30px "merriweather-regular", serif;
   }
 }
 
@@ -2174,7 +2176,7 @@ ul#nav li.current a:after {
   }
 
   #contact .right p.lead {
-    font: 18px/36px "merriweather-light", serif;
+    font: 18px/36px "merriweather-regular", serif;
   }
 }
 
@@ -2185,7 +2187,7 @@ ul#nav li.current a:after {
   }
 
   #contact .right p.lead {
-    font: 17px/33px "merriweather-light", serif;
+    font: 17px/33px "merriweather-regular", serif;
   }
 }
 
@@ -2231,6 +2233,8 @@ ul#nav li.current a:after {
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="tel"],
+input[type="number"],
 #contact textarea,
 #contact select {
   margin-bottom: 45px;
@@ -2594,7 +2598,7 @@ footer .social-links li:first-child {
   color: #e4b101;
 }
 #speakers .slider-wrapper > div {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 #sponsors .slider-wrapper > div {
   background: white;
