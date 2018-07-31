@@ -2679,3 +2679,36 @@ footer .social-links li:first-child {
 #clients .owl-carousel .owl-dots .owl-dot:hover span {
   background-color: #000000;
 }
+.grid-item {
+  float: left;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  border: 2px solid #b6b5b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s;
+}
+
+.grid-item img {
+  width: 200px;
+  height: 100px;
+  position: center;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+  z-index: 100;
+}
+
+.sponsors-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#sponsors-gallery {
+  margin: auto;
+}
