@@ -9,7 +9,7 @@
 
   /*---------------------------------------------------- */
   /* Preloader
-	------------------------------------------------------ */
+      ------------------------------------------------------ */
   $(window).load(function() {
     // will first fade out the loading animation
     $("#loader").fadeOut("slow", function() {
@@ -22,7 +22,7 @@
 
   /*----------------------------------------------------*/
   /* Flexslider
-  	/*----------------------------------------------------*/
+        /*----------------------------------------------------*/
   $(window).load(function() {
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazyload"
@@ -64,77 +64,69 @@
           .addClass("animated fadeInUp show");
       }
     });
-
-    $("#testimonial-slider").flexslider({
-      namespace: "flex-",
-      controlsContainer: "",
-      animation: "slide",
-      controlNav: true,
-      directionNav: false,
-      smoothHeight: true,
-      slideshowSpeed: 7000,
-      animationSpeed: 600,
-      randomize: false
-    });
   });
 
   var folder = "images/sponsors/";
 
-	$(window).load(() =>{ 
-	
-  $.ajax({
-    url: folder,
-    success: function(data) {
-      $(data)
-        .find("a")
-        .attr("href", function(i, val) {
-          if (val.match(/\.(jpe?g|png|gif)$/)) {
-            $("#sponsor-slider").append(`
-					<li class="sponsor">
-						<img src="${folder}${val}">
-					</li>`);
-          }
+  $(window).load(() => {
+    $.ajax({
+      url: folder,
+      success: function(data) {
+        $(data)
+          .find("a")
+          .attr("href", function(i, val) {
+            if (val.match(/\.(jpe?g|png|gif)$/)) {
+              $("#sponsors-gallery").append(`
+                    <div class="grid-item">
+                    <img src="${folder}${val}"/>
+                    </div>`);
+            }
+          });
+        $(".grid").isotope({
+          // options...
+          itemSelector: ".grid-item",
+          layoutMode: "fitRows"
         });
-      new skrolr("sponsor-slider", {
-        waitTime: 2000,
-        moveTime: 750,
-        numWide: [
-          [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
-          [500, 750, 2],
-          [750, 1000, 3],
-          [1000, 1250, 4],
-          [1250, 1500, 5],
-          [1500, 1750, 6],
-          [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
-        ],
-        size: "100% 150px", // width then height
-        arrows: true,
-        buttons: false
-      });
-    }
+        // new skrolr("sponsor-slider", {
+        //   waitTime: 2000,
+        //   moveTime: 750,
+        //   numWide: [
+        //     [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
+        //     [500, 750, 2],
+        //     [750, 1000, 3],
+        //     [1000, 1250, 4],
+        //     [1250, 1500, 5],
+        //     [1500, 1750, 6],
+        //     [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
+        //   ],
+        //   size: "100% 150px", // width then height
+        //   arrows: true,
+        //   buttons: false
+        // });
+      }
+    });
   });
-	})
 
-  new skrolr("speaker-slider", {
-    waitTime: 2000,
-    moveTime: 750,
-    numWide: [
-      [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
-      [500, 750, 2],
-      [750, 1000, 3],
-      [1000, 1250, 4],
-      [1250, 1500, 5],
-      [1500, 1750, 6],
-      [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
-    ],
-    size: "100% 300px", // width then height
-    arrows: true,
-    buttons: false
-  });
+  // new skrolr("speaker-slider", {
+  //   waitTime: 2000,
+  //   moveTime: 750,
+  //   numWide: [
+  //     [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
+  //     [500, 750, 2],
+  //     [750, 1000, 3],
+  //     [1000, 1250, 4],
+  //     [1250, 1500, 5],
+  //     [1500, 1750, 6],
+  //     [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
+  //   ],
+  //   size: "100% 300px", // width then height
+  //   arrows: true,
+  //   buttons: false
+  // });
 
   /*----------------------------------------------------*/
   /* Adjust Primary Navigation Background Opacity
-	------------------------------------------------------*/
+      ------------------------------------------------------*/
   $(window).on("scroll", function() {
     var h = $("header").height();
     var y = $(window).scrollTop();
@@ -153,7 +145,7 @@
 
   /*----------------------------------------------------*/
   /* Highlight the current section in the navigation bar
-  	------------------------------------------------------*/
+        ------------------------------------------------------*/
   var sections = $("section"),
     navigation_links = $("#nav-wrap a");
 
@@ -178,7 +170,7 @@
 
   /*----------------------------------------------------*/
   /* FitText Settings
-  	------------------------------------------------------ */
+        ------------------------------------------------------ */
   setTimeout(function() {
     $("#hero-slider h1").fitText(1, {
       minFontSize: "30px",
@@ -188,7 +180,7 @@
 
   /*-----------------------------------------------------*/
   /* Mobile Menu
-   ------------------------------------------------------ */
+     ------------------------------------------------------ */
   var menu_icon = $("<span class='menu-icon'>Menu</span>");
   var toggle_button = $("<a>", {
     id: "toggle-btn",
@@ -200,7 +192,7 @@
   var nav = $("ul#nav");
 
   /* if JS is enabled, remove the two a.mobile-btns
-  	and dynamically prepend a.toggle-btn to #nav-wrap */
+        and dynamically prepend a.toggle-btn to #nav-wrap */
   nav_wrap.find("a.mobile-btn").remove();
   toggle_button.append(menu_icon);
   nav_wrap.prepend(toggle_button);
@@ -222,30 +214,30 @@
 
   /*----------------------------------------------------*/
   /* Smooth Scrolling
-  	------------------------------------------------------ */
-  $(".smoothscroll").on("click", function(e) {
-    e.preventDefault();
+        ------------------------------------------------------ */
+  // $(".smoothscroll").on("click", function(e) {
+  //   e.preventDefault();
 
-    var target = this.hash,
-      $target = $(target);
+  //   var target = this.hash,
+  //     $target = $(target);
 
-    $("html, body")
-      .stop()
-      .animate(
-        {
-          scrollTop: $target.offset().top
-        },
-        800,
-        "swing",
-        function() {
-          window.location.hash = target;
-        }
-      );
-  });
+  //   $("html, body")
+  //     .stop()
+  //     .animate(
+  //       {
+  //         scrollTop: $target.offset().top
+  //       },
+  //       800,
+  //       "swing",
+  //       function() {
+  //         window.location.hash = target;
+  //       }
+  //     );
+  // });
 
   /*----------------------------------------------------*/
   /*	Modal Popup
-	------------------------------------------------------*/
+      ------------------------------------------------------*/
   $(".item-wrap a").magnificPopup({
     type: "inline",
     fixedContentPos: false,
@@ -261,47 +253,6 @@
 
   /*----------------------------------------------------*/
   /*  Placeholder Plugin Settings
-	------------------------------------------------------ */
+      ------------------------------------------------------ */
   $("input, textarea").placeholder();
-
-  /*----------------------------------------------------*/
-  /*	contact form
-	------------------------------------------------------*/
-
-  /* local validation */
-  $("#contactForm").validate({
-    /* submit via ajax */
-    submitHandler: function(form) {
-      var sLoader = $("#submit-loader");
-
-      $.ajax({
-        type: "POST",
-        url: "inc/sendEmail.php",
-        data: $(form).serialize(),
-        beforeSend: function() {
-          sLoader.fadeIn();
-        },
-        success: function(msg) {
-          // Message was sent
-          if (msg == "OK") {
-            sLoader.fadeOut();
-            $("#message-warning").hide();
-            $("#contactForm").fadeOut();
-            $("#message-success").fadeIn();
-          }
-          // There was an error
-          else {
-            sLoader.fadeOut();
-            $("#message-warning").html(msg);
-            $("#message-warning").fadeIn();
-          }
-        },
-        error: function() {
-          sLoader.fadeOut();
-          $("#message-warning").html("Something went wrong. Please try again.");
-          $("#message-warning").fadeIn();
-        }
-      });
-    }
-  });
 })(jQuery);
