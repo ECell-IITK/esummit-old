@@ -1751,8 +1751,18 @@ ul#nav li.current a:after {
   margin-top: 30px;
 }
 
+#about .team > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #team-wrapper {
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #team-wrapper .member {
@@ -1845,6 +1855,9 @@ ul#nav li.current a:after {
 }
 
 @media only screen and (max-width: 600px) {
+  #team-wrapper {
+    flex-direction: column;
+  }
   #team-wrapper .member-pic {
     width: 80px;
     height: 80px;
