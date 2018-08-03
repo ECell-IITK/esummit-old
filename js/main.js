@@ -24,6 +24,12 @@
   /* Flexslider
   	/*----------------------------------------------------*/
   $(window).load(function() {
+    if ("Notification" in window && navigator.serviceWorker) {
+      // Display the UI to let the user toggle notifications
+      Notification.requestPermission(function(status) {
+        console.log("Notification permission status:", status);
+      });
+    }
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazyload"
     });
@@ -76,44 +82,68 @@
       animationSpeed: 600,
       randomize: false
     });
+
+    $.get("eventPopup.html", function(data) {
+      $("#event-popup-container").html(data);
+      /*----------------------------------------------------*/
+      /*	Modal Popup
+	------------------------------------------------------*/
+      $(".item-wrap a").magnificPopup({
+        type: "inline",
+        fixedContentPos: false,
+        removalDelay: 300,
+        showCloseBtn: false,
+        mainClass: "mfp-fade"
+      });
+
+      $(document).on("click", ".popup-modal-dismiss", function(e) {
+        e.preventDefault();
+        $.magnificPopup.close();
+      });
+    });
   });
 
   var folder = "images/sponsors/";
 
-	$(window).load(() =>{ 
-	
-  $.ajax({
-    url: folder,
-    success: function(data) {
-      $(data)
-        .find("a")
-        .attr("href", function(i, val) {
-          if (val.match(/\.(jpe?g|png|gif)$/)) {
-            $("#sponsor-slider").append(`
+  $(window).load(() => {
+    $.ajax({
+      url: folder,
+      success: function(data) {
+        $(data)
+          .find("a")
+          .attr("href", function(i, val) {
+            if (val.match(/\.(jpe?g|png|gif)$/)) {
+              $("#sponsor-slider").append(`
 					<li class="sponsor">
 						<img src="${folder}${val}">
 					</li>`);
-          }
+            }
+          });
+        new skrolr("sponsor-slider", {
+          waitTime: 750,
+          moveTime: 750,
+          numWide: [
+            [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
+            [500, 750, 2],
+            [750, 1000, 3],
+            [1000, 1250, 4],
+            [1250, 1500, 5],
+            [1500, 1750, 6],
+            [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
+          ],
+          size: "100% 150px", // width then height
+          arrows: true,
+          buttons: false
         });
-      new skrolr("sponsor-slider", {
-        waitTime: 2000,
-        moveTime: 750,
-        numWide: [
-          [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
-          [500, 750, 2],
-          [750, 1000, 3],
-          [1000, 1250, 4],
-          [1250, 1500, 5],
-          [1500, 1750, 6],
-          [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
-        ],
-        size: "100% 150px", // width then height
-        arrows: true,
-        buttons: false
-      });
-    }
+      }
+    });
+
+    $("#bg-video-container").append(`
+  <video class="bg-video" id="video1" src="inc/For_Wes.webm" muted autoplay loop>
+            </video>
+  `);
+    document.getElementById("video1").play();
   });
-	})
 
   new skrolr("speaker-slider", {
     waitTime: 2000,
@@ -241,22 +271,6 @@
           window.location.hash = target;
         }
       );
-  });
-
-  /*----------------------------------------------------*/
-  /*	Modal Popup
-	------------------------------------------------------*/
-  $(".item-wrap a").magnificPopup({
-    type: "inline",
-    fixedContentPos: false,
-    removalDelay: 300,
-    showCloseBtn: false,
-    mainClass: "mfp-fade"
-  });
-
-  $(document).on("click", ".popup-modal-dismiss", function(e) {
-    e.preventDefault();
-    $.magnificPopup.close();
   });
 
   /*----------------------------------------------------*/

@@ -943,7 +943,7 @@ ul#nav li.current a:after {
 
 #hero {
   /* background: #0f1215 url(../images/astronaut-bg.jpg) no-repeat center; */
-  background: #0f1215 no-repeat center;
+  background: rgba(0, 0, 0, 0.5);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -998,7 +998,7 @@ ul#nav li.current a:after {
 
 #hero-slider .slides .flex-caption h3 {
   font: 18px/1.9 "merriweather-regular", sans-serif;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
   width: 85%;
   margin-top: 24px;
@@ -1268,7 +1268,7 @@ ul#nav li.current a:after {
 }
 
 #portfolio .row.items {
-  max-width: 1260px;
+  max-width: 960px;
   margin-top: 24px;
 }
 
@@ -1301,7 +1301,13 @@ ul#nav li.current a:after {
 }
 
 #portfolio-wrapper .bgrid {
-  padding: 0;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #portfolio-wrapper .bgrid {
+    padding: 0px;
+  }
 }
 
 .folio-item .item-wrap {
@@ -1466,7 +1472,7 @@ ul#nav li.current a:after {
 }
 
 .popup-modal img {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 /* description */
@@ -1745,8 +1751,18 @@ ul#nav li.current a:after {
   margin-top: 30px;
 }
 
+#about .team > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #team-wrapper {
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #team-wrapper .member {
@@ -1839,6 +1855,9 @@ ul#nav li.current a:after {
 }
 
 @media only screen and (max-width: 600px) {
+  #team-wrapper {
+    flex-direction: column;
+  }
   #team-wrapper .member-pic {
     width: 80px;
     height: 80px;
@@ -2782,5 +2801,19 @@ footer .social-links li:first-child {
   }
   #hero {
     height: 720px;
+  }
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1064px) {
+  .bg-video {
+    display: none;
   }
 }
