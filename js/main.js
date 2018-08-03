@@ -80,40 +80,44 @@
 
   var folder = "images/sponsors/";
 
-	$(window).load(() =>{ 
-	
-  $.ajax({
-    url: folder,
-    success: function(data) {
-      $(data)
-        .find("a")
-        .attr("href", function(i, val) {
-          if (val.match(/\.(jpe?g|png|gif)$/)) {
-            $("#sponsor-slider").append(`
+  $(window).load(() => {
+    $.ajax({
+      url: folder,
+      success: function(data) {
+        $(data)
+          .find("a")
+          .attr("href", function(i, val) {
+            if (val.match(/\.(jpe?g|png|gif)$/)) {
+              $("#sponsor-slider").append(`
 					<li class="sponsor">
 						<img src="${folder}${val}">
 					</li>`);
-          }
+            }
+          });
+        new skrolr("sponsor-slider", {
+          waitTime: 750,
+          moveTime: 750,
+          numWide: [
+            [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
+            [500, 750, 2],
+            [750, 1000, 3],
+            [1000, 1250, 4],
+            [1250, 1500, 5],
+            [1500, 1750, 6],
+            [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
+          ],
+          size: "100% 150px", // width then height
+          arrows: true,
+          buttons: false
         });
-      new skrolr("sponsor-slider", {
-        waitTime: 2000,
-        moveTime: 750,
-        numWide: [
-          [0, 500, 1], // width of parent is 0-499px, show 1 <li> element
-          [500, 750, 2],
-          [750, 1000, 3],
-          [1000, 1250, 4],
-          [1250, 1500, 5],
-          [1500, 1750, 6],
-          [1750, , 7] // width of parent is at least (no maximum) 1750px, show 7 <li> elements
-        ],
-        size: "100% 150px", // width then height
-        arrows: true,
-        buttons: false
-      });
-    }
+      }
+    });
+
+    $("#bg-video-container").append(`
+  <video class="bg-video" src="inc/For_Wes.webm" autoplay loop>
+            </video>
+  `);
   });
-	})
 
   new skrolr("speaker-slider", {
     waitTime: 2000,

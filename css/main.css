@@ -1268,7 +1268,7 @@ ul#nav li.current a:after {
 }
 
 #portfolio .row.items {
-  max-width: 1260px;
+  max-width: 960px;
   margin-top: 24px;
 }
 
@@ -1301,7 +1301,13 @@ ul#nav li.current a:after {
 }
 
 #portfolio-wrapper .bgrid {
-  padding: 0;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #portfolio-wrapper .bgrid {
+    padding: 0px;
+  }
 }
 
 .folio-item .item-wrap {
@@ -1466,7 +1472,7 @@ ul#nav li.current a:after {
 }
 
 .popup-modal img {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 /* description */
@@ -2782,7 +2788,7 @@ footer .social-links li:first-child {
   }
   #hero {
     height: 720px;
-    overflow-x: none;
+    overflow-x: hidden;
   }
 }
 
