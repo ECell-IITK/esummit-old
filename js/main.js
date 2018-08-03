@@ -114,7 +114,7 @@
     });
 
     $("#bg-video-container").append(`
-  <video class="bg-video" id="video1" src="inc/For_Wes.webm" autoplay loop>
+  <video class="bg-video" id="video1" src="inc/For_Wes.webm" muted autoplay loop>
             </video>
   `);
     document.getElementById('video1').play();
