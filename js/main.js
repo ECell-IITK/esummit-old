@@ -82,6 +82,25 @@
       animationSpeed: 600,
       randomize: false
     });
+
+    $.get("eventPopup.html", function(data) {
+      $("#event-popup-container").html(data);
+      /*----------------------------------------------------*/
+      /*	Modal Popup
+	------------------------------------------------------*/
+      $(".item-wrap a").magnificPopup({
+        type: "inline",
+        fixedContentPos: false,
+        removalDelay: 300,
+        showCloseBtn: false,
+        mainClass: "mfp-fade"
+      });
+
+      $(document).on("click", ".popup-modal-dismiss", function(e) {
+        e.preventDefault();
+        $.magnificPopup.close();
+      });
+    });
   });
 
   var folder = "images/sponsors/";
@@ -252,22 +271,6 @@
           window.location.hash = target;
         }
       );
-  });
-
-  /*----------------------------------------------------*/
-  /*	Modal Popup
-	------------------------------------------------------*/
-  $(".item-wrap a").magnificPopup({
-    type: "inline",
-    fixedContentPos: false,
-    removalDelay: 300,
-    showCloseBtn: false,
-    mainClass: "mfp-fade"
-  });
-
-  $(document).on("click", ".popup-modal-dismiss", function(e) {
-    e.preventDefault();
-    $.magnificPopup.close();
   });
 
   /*----------------------------------------------------*/
