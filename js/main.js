@@ -24,6 +24,12 @@
   /* Flexslider
   	/*----------------------------------------------------*/
   $(window).load(function() {
+    if ("Notification" in window && navigator.serviceWorker) {
+      // Display the UI to let the user toggle notifications
+      Notification.requestPermission(function(status) {
+        console.log("Notification permission status:", status);
+      });
+    }
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazyload"
     });
@@ -117,7 +123,7 @@
   <video class="bg-video" id="video1" src="inc/For_Wes.webm" muted autoplay loop>
             </video>
   `);
-    document.getElementById('video1').play();
+    document.getElementById("video1").play();
   });
 
   new skrolr("speaker-slider", {
