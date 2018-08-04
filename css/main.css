@@ -14,7 +14,8 @@
 /*  12. =contact
 /*  13. =footer
 /*  14. =Past Speakers
- */
+/*  16. =All Speakers webpage
+/*
 /*
 /* =================================================================== */
 
@@ -2812,11 +2813,11 @@ footer .social-links li:first-child {
   margin: auto;
 }
 
-.all-sponsors {
+.all-sponsors,.all-speakers{
   margin: auto;
 }
 
-.all-sponsors a {
+.all-sponsors a,.all-speakers a {
   font: 12px/54px "raleway-heavy", sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -2843,7 +2844,29 @@ footer .social-links li:first-child {
   width: 100%;
   height: 100%;
 }
+/**All speakers***************************************************/
+.speaker-pic{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.speaker-name{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.speaker-name h2{
+  margin: 0 0 0 0;
+  color: #e4b101;
+}
+.speaker-name h3{
+  margin: 0 0 0 0;
+  color: #e64e04;
+}
 
+#speakers{
+}
+
+/**All speakers end***************************************************/
 @media only screen and (max-width: 1500px) {
   .esummit-image-container {
     right: 8%;
