@@ -1264,7 +1264,7 @@ ul#nav li.current a:after {
     rgba(0, 0, 0, 0.8), 
     rgba(0, 0, 0, 0.8)
   ),
-  url("../images/intro-bg.jpg");
+  url("../images/intro-bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -1894,8 +1894,8 @@ ul#nav li.current a:after {
     flex-direction: column;
   }
   #team-wrapper .member-pic {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     float: left;
     margin-right: 30px;
     position: relative;
