@@ -2914,6 +2914,8 @@ footer .social-links li:first-child {
 }
 
 #speakers{
+    background-image: url("../images/speakers/argyle.png");
+    background-repeat: repeat;
 }
 
 /**All speakers end***************************************************/
