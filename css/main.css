@@ -1262,8 +1262,8 @@ ul#nav li.current a:after {
   color: rgba(255,255,255,0.8);
   background: #111417;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
   ),
   url("../images/intro-bg.jpg");
   background-repeat: no-repeat;
@@ -1271,7 +1271,8 @@ ul#nav li.current a:after {
   background-attachment: fixed;
   background-position: center;
   padding: 120px 0;
-  border-bottom: 1px solid #15191d;
+  border-top: solid white 2px;
+  border-bottom: solid white 2px;
 }
 
 #intro .row.items {
