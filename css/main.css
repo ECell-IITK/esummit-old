@@ -1257,6 +1257,40 @@ ul#nav li.current a:after {
   }
 }
 
+#intro {
+  color: rgba(255,255,255,0.8);
+  background: #111417;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("../images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 120px 0;
+  border-bottom: 1px solid #15191d;
+}
+
+#intro .row.items {
+  max-width: 960px;
+  margin-top: 24px;
+}
+
+/* media queries - portfolio */
+
+@media only screen and (max-width: 1300px) {
+  #intro .row.items {
+    width: 100%;
+    padding: 0;
+  }
+
+  #intro .row.items .columns {
+    padding: 0;
+  }
+}
+
 /** 
 /* 08. =portfolio styles
 /* =================================================================== */
@@ -2461,7 +2495,7 @@ footer .footer-logo-3 {
   padding: 5px;
   background: white;
   border-radius: 2px;
-  margin: 0 10px; 
+  margin: 0 10px;
 }
 
 /* copyright */
