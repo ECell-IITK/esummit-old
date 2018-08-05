@@ -170,6 +170,8 @@
   /*----------------------------------------------------*/
   /* Adjust Primary Navigation Background Opacity
 	------------------------------------------------------*/
+  var hasBeenTrigged=false;
+
   $(window).on("scroll", function() {
     var h = $("header").height();
     var y = $(window).scrollTop();
@@ -184,6 +186,12 @@
         header.addClass("opaque");
       }
     }
+
+    if (y>= 750 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
+            // alert("You've scrolled 100 pixels.");
+            Email_pop();
+            hasBeenTrigged = true;
+        }
   });
 
   /*----------------------------------------------------*/
@@ -282,6 +290,50 @@
   /*  Placeholder Plugin Settings
 	------------------------------------------------------ */
   $("input, textarea").placeholder();
+
+
+
+/*------------------------------------------------
+    Email Subcription  Popup
+    ---------------------------------------------------*/
+
+    $("#checkout-wrapper.show, #checkout-wrapper-container").css({
+    "display": "none"
+});
+
+function loadPopUp(t) {
+    //alert("started");
+    var time = t * 1000;
+    setTimeout(function() {
+        $("#checkout-wrapper.show, #checkout-wrapper-container").css({
+            "display": "block"
+        });
+    }, time);
+}
+
+
+/**
+ * When page loads this function starts
+ * variable t, set in seconds
+
+ */
+function Email_pop() {
+    var t = 0; // Number of seconds to delay popup.
+    loadPopUp(t);
+    $("a.close-thik").click(function() {
+        $("#checkout-wrapper.show, #checkout-wrapper-container").css({
+            "display": "none"
+        });
+    })
+    $("button.submit").click(function() {
+        $("#checkout-wrapper.show, #checkout-wrapper-container").css({
+            "display": "none"
+        });
+        alert("Check Your Email");
+    })
+}
+
+
 
   /*----------------------------------------------------*/
   /*	contact form
