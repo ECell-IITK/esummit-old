@@ -2959,6 +2959,92 @@ footer .social-links li:first-child {
   z-index: -1;
 }
 
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #b08801;
+}
+.nav-pills > li {
+  float: left
+}
+
+.nav-pills > li > a {
+  border-radius: 0px
+}
+
+.nav-pills > li + li {
+  margin-left: 0px
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: black;
+}
+.tab-content > .tab-pane {
+  display: none;
+  clear: both;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.tab-content > .active {
+  display: block;
+  padding: 15px;
+  clear: both;
+  max-height: 60vh;
+  color: black;
+  font-family: "raleway-medium", sans-serif;
+  overflow-y: scroll;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear
+}
+.fade.in {
+  opacity: 1
+}
+
+.nodal-navbar{
+  width: 100% !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background-color: #e4b101;
+}
+.nodal-navbar > ul{
+  list-style-type: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+.nodal-navbar ul li{
+  border-collapse: collapse;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.nodal-navbar ul li a{
+  color: #0b0b0b;
+  font-family: "montserrat-regular", sans-serif;
+}
+
 @media only screen and (max-width: 1064px) {
   .bg-video {
     display: none;
