@@ -14,7 +14,8 @@
 /*  12. =contact
 /*  13. =footer
 /*  14. =Past Speakers
- */
+/*  16. =All Speakers webpage
+/*
 /*
 /* =================================================================== */
 
@@ -1258,13 +1259,10 @@ ul#nav li.current a:after {
 }
 
 #intro {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   background: #111417;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
-  ),
-  url("../images/intro-bg2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/intro-bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -2813,11 +2811,13 @@ footer .social-links li:first-child {
   margin: auto;
 }
 
-.all-sponsors {
+.all-sponsors,
+.all-speakers {
   margin: auto;
 }
 
-.all-sponsors a {
+.all-sponsors a,
+.all-speakers a {
   font: 12px/54px "raleway-heavy", sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -2845,6 +2845,80 @@ footer .social-links li:first-child {
   height: 100%;
 }
 
+.esummit-bg {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+}
+.esummit-rotation {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  -webkit-animation-name: esummit-rotation;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes esummit-rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(200deg);
+  }
+}
+@media only screen and (max-width: 1064px) {
+  .esummit-image-container {
+    width: 300px;
+    height: 300px;
+    position: static;
+    margin: auto;
+    margin-top: 120px;
+  }
+  .esummit-bg {
+    width: 300px;
+    height: 300px;
+  }
+  .esummit-rotation {
+    width: 300px;
+    height: 300px;
+  }
+  #hero .hero-content {
+    padding-top: 0;
+    margin-top: -4em;
+  }
+  #hero {
+    height: 720px;
+  }
+}
+/**All speakers***************************************************/
+.speaker-pic {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.speaker-name {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.speaker-name h2 {
+  margin: 0 0 0 0;
+  color: #e4b101;
+}
+.speaker-name h3 {
+  margin: 0 0 0 0;
+  color: #e64e04;
+}
+
+#all-speakers {
+  background-image: url("../images/speakers/argyle.png");
+  background-repeat: repeat;
+}
+
+/**All speakers end***************************************************/
 @media only screen and (max-width: 1500px) {
   .esummit-image-container {
     right: 8%;
