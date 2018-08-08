@@ -1739,7 +1739,7 @@ ul#nav li.current a:after {
 
 #about {
   background: #111417;
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
   border-bottom: 1px solid #15191d;
 }
@@ -2638,7 +2638,7 @@ footer .social-links li:first-child {
 -------------------------------------------------------------------------------*/
 #speakers,
 #sponsors {
-  padding: 120px 0 0 0;
+  padding: 60px 0 0 0;
 }
 
 .slider-wrapper {
@@ -2857,7 +2857,7 @@ footer .social-links li:first-child {
   z-index: 2;
   position: absolute;
   -webkit-animation-name: esummit-rotation;
-  -webkit-animation-duration: 15s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
@@ -2916,6 +2916,15 @@ footer .social-links li:first-child {
 #all-speakers {
   background-image: url("../images/speakers/argyle.png");
   background-repeat: repeat;
+  padding: 120px 0;
+}
+
+#all-speakers .section-head {
+  padding-bottom: 60px;
+}
+
+#all-speakers .md-modal .md-content {
+  max-width: 90vw;
 }
 
 /**All speakers end***************************************************/

@@ -750,8 +750,8 @@ perspective effects (not including the modals and the overlay).
 }
 .md-disc{
     max-width: 65%;
-    text-align: center;
-    overflow-y: scroll;
+    text-align: justify;
+    overflow-y: auto;
     max-height: 50vh;
     float: right;
     margin: 0 0 0 0;
