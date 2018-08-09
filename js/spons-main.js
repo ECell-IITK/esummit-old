@@ -65,9 +65,15 @@
       }
     });
   });
-
+  var link = new Array(40);  
+  var i;
+  for(i=0;i<40;i++)
+  {
+    link[i]="#";
+  }
+  link[1]="http://internshala.com";
   var folder = "images/sponsors/";
-
+  var linkcount =0;
   $(window).load(() => {
     $.ajax({
       url: folder,
@@ -76,10 +82,14 @@
           .find("a")
           .attr("href", function(i, val) {
             if (val.match(/\.(jpe?g|png|gif)$/)) {
+              
               $("#sponsors-gallery").append(`
                     <div class="grid-item">
+                    <a href=${link[linkcount]} >
                     <img src="${folder}${val}"/>
+                    </a>
                     </div>`);
+                    linkcount++;
             }
           });
         $(".grid").isotope({
