@@ -137,10 +137,15 @@
         });
       }
     });
-
+    var j = Math.random() * 3;
+    var i = Math.floor(j) + 1;
+    console.log(j,i);
     $("#bg-video-container").append(`
-  <video class="bg-video" id="video1" src="inc/For_Wes.webm" muted autoplay loop>
-            </video>
+      <video class="bg-video" id="video1" muted autoplay loop>
+        <source src="videos/${i}.webm" type="video/webm">
+        <source src="videos/${i}.mov">
+        <source src="videos/${i}.mp4" type="video/mp4">
+      </video>
   `);
     document.getElementById("video1").play();
   });
