@@ -1301,6 +1301,7 @@ ul#nav li.current a:after {
 }
 
 #portfolio .row.items {
+  min-height: 600px;
   max-width: 960px;
   margin-top: 24px;
 }
