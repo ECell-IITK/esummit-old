@@ -85,7 +85,7 @@ arr.push(
   //     id: ""
   //   },
   {
-    name: "Samir Cairee",
+    name: "Samir Cairae",
     pic: "images/speakers/samir.jpeg",
     about:
       "Mr. Samir Cairae, CEO of Diversified Metals, Vedanta Limited. He has spent more than two decades in managing complex, rapidly evolving and competitive global businesses. He has gained the reputation for mobilizing businesses, driving growth and profits and carrying out company-wide transformation programs.",
