@@ -34,7 +34,7 @@
       elements_selector: ".lazyload"
     });
 
-    const esummit = new Date(2018, 7, 24, 0, 0, 0).getTime();
+    const esummit = new Date(2018, 7, 24, 18, 0, 0).getTime();
     // console.log(esummit.toString());
 
     // countdown
