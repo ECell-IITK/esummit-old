@@ -1270,13 +1270,13 @@ ul#nav li.current a:after {
 /* 08. =portfolio styles
 /* =================================================================== */
 
-#portfolio {
+#portfolio, #workshops {
     background: #111417;
-    padding-top: 120px;
+    padding: 60px 0;
     border-bottom: 1px solid #15191d;
 }
 
-#portfolio .row.items {
+#portfolio .row.items,  #workshops .row.items {
     min-height: 600px;
     max-width: 960px;
     margin-top: 24px;
@@ -1285,37 +1285,39 @@ ul#nav li.current a:after {
 /* media queries - portfolio */
 
 @media only screen and (max-width: 1300px) {
-    #portfolio .row.items {
+    #portfolio .row.items, #workshops .row.items {
         width: 100%;
         padding: 0;
     }
-    #portfolio .row.items .columns {
+    #portfolio .row.items .columns, #workshops .row.items .columns {
         padding: 0;
     }
 }
 
 /* portfolio content */
 
-#portfolio-wrapper {
+#portfolio-wrapper, #workshops-wrapper {
     margin-top: 36px;
 }
 
 #portfolio-wrapper:before,
-#portfolio-wrapper:after {
+#workshops-wrapper:before,
+#portfolio-wrapper:after,
+#workshops-wrapper:after {
     content: "";
     display: table;
 }
 
-#portfolio-wrapper:after {
+#portfolio-wrapper:after, #workshops-wrapper:after {
     clear: both;
 }
 
-#portfolio-wrapper .bgrid {
+#portfolio-wrapper .bgrid, #workshops-wrapper .bgrid {
     padding: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
-    #portfolio-wrapper .bgrid {
+    #portfolio-wrapper .bgrid, #workshops-wrapper .bgrid {
         padding: 0px;
     }
 }
@@ -1324,6 +1326,7 @@ ul#nav li.current a:after {
     background: #111417;
     overflow: hidden;
     position: relative;
+    /* border: 2px solid white; */
 }
 
 .folio-item .item-wrap a {
