@@ -2795,8 +2795,8 @@ footer .social-links li:first-child {
 
 .grid-item img {
     width: 200px;
-    height: 100px;
-    position: center;
+    max-height: 100px;
+    vertical-align: middle;
 }
 
 .grid-item:hover {
