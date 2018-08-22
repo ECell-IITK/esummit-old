@@ -20,25 +20,26 @@ arr.push(
   {
     name: "Mahesh Gupta",
     pic: "images/speakers/mahesh.jpg",
-    about:"",
-    id: ""
+    about: "Mahesh Gupta, a first generation entrepreneur and the founder of Kent RO Systems Ltd., is an alumnus IIT Kanpur Mechanical Engineering department. Kent, founded in 1999, now sells more than 225,000 RO purifiers every year and holds around 40% market share in India. The “Pure Water Man of India”, as Dr. Gupta is also known as, has also been conferred upon by an Honorary Doctorate degree by Sri Sri University Orissa, for his contribution in providing safe and healthy drinking water in Rural and Urban areas. "
+    ,
+    id:""
   },
   {
     name: "Sandeep Jain",
     pic: "images/speakers/sandeep-jain.jpg",
-    about: "",
+    about: "An IIT Roorkee alumnus and founder of GeeksforGeeks, Sandeep Jain loves to solve programming problems in most efficient ways. Apart from GeeksforGeeks, he has worked with DE Shaw and Co. as a software developer and JIIT Noida as an assistant professor. His wide variety of articles not only indicate his technical skills but also his logical and creative skills since quite a few articles were also based on math and puzzles.",
     id: ""
   },
   {
     name: "Anshuman Singh",
     pic: "images/speakers/anshuman.jpeg",
-    about: "",
+    about: "This IIITH alumnus was the ACM ICPC World Finalist for consecutive years and and ranked third in the world by SPOJ. After leading a team which completely revamped Facebook’s messaging system and recruiting for Facebook India, he co-founded Interviewbit with an intent of restructuring the education system.",
     id: ""
   },
   {
     name: "Nipun Goyal",
     pic: "images/speakers/nipun.jpeg",
-    about: "",
+    about: "Nipun Goyal is the Co-founder of Curofy, where he leads business development, investor & media relations and overall business strategy. He is a graduate from IIT Delhi, 2012 batch, with major in Electrical Engineering and minor in Business Management. Today, Curofy is India’s largest community of verified doctors. For his work in the field of Social Media & Mobile Tech, Nipun was included in Forbes India's 30 under 30 batch of 2018",
     id: ""
   },
 
@@ -108,19 +109,19 @@ arr.push(
   {
     name: "Stefan Haves",
     pic: "images/speakers/stefan.jpeg",
-    about: "",
+    about: "Stefan Haves, the Director of Cirque, had completed his bachelors in theatre arts from university of california followed by MFA from Brandeis university. Being a scholar and guest professor in various institutes, he is a really knowledged man in the field of acting and theatre arts. Featuring as the comic act designer, has brought laughter and happiness to a lot of people.",
     id: ""
   },
   {
     name: "Vinayak Nath",
     pic: "images/speakers/vinayak.jpg",
-    about: "",
+    about: "He is the Managing Partner at Venture Catalysts and the Co-Founder of Venture Catalysts ,Uttar Pradesh. He is  also an Active Advisor and Mentor at several Investment Firms like, Indian Angel Network etc. His NGO, Vinayak Nath Foundation program NAUKRI MAHAKUMBH has been awarded by many state governments for its work in the field of employment generation across India. He has been Member Study Group, Planning Commission UP.",
     id: ""
   },
   {
     name: "Aditya Agrawal",
     pic: "images/speakers/aditya.jpeg",
-    about: "",
+    about: "He is the director of Emami Paper Mills Ltd , Emami Biotech Ltd., and Bengal Emami Infrastructure & Developers Ltd. Being extremely versatile and an expert at PR and management, Aditya heads the Cement, edible oil and bio diesel, health care and paper manufacturing businesses of the Group. He is the Honorary Consul of the Republic of Ethiopia in Kolkata.",
     id: ""
   },
   {
@@ -154,13 +155,13 @@ arr.push(
   {
     name: "Tanmay Saksena",
     pic: "images/speakers/Tanmay Saksena.jpg",
-    about: " ",
+    about: "He is an alumni of IIT Kanpur . he is  the Chief Operating Officer at 1mg, an e-commerce health care company based in Gurgaon, Haryana. He was the Global Business Head of Online Food Ordering at Zomato. He was also the Executive Producer at Disney Social Games.",
     id: ""
   },
   {
     name: "Amit Roy",
     pic: "images/speakers/amit.jpeg",
-    about: " ",
+    about: "He is the director at PwC , India and was Chief Distribution Officer at Aegon life insurance ltd. He has charmed the market with his experience in Distribution Management, Customer Relationship  Management.",
     id: ""
   },
   //   {
@@ -180,7 +181,7 @@ arr.push(
   {
     name: "Apoorv Ranjan Sharma",
     pic: "images/speakers/apoorv.jpeg",
-    about: "",
+    about: "Dr. Apoorv Sharma is cofounder & president of Venture Catalysts - Asia’ first integrated incubator and No. 1 Early Stage Investor in 2017 rated by leading national media. He is one of the founding fathers of startup ecosystem in India, he has been instrumental in developing startup ecosystem since early 2000. He has been pioneer in establishing incubators in India.",
     id: ""
   },
   {
