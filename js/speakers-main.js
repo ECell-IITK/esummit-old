@@ -142,7 +142,7 @@ arr.push(
     name: "Mahima Kaul",
     pic: "images/speakers/mahima.jpeg",
     about:
-      "Mahima Kaul is the co-founder and director of Coutloot which has raised over USD 1 million in the pre-Series A funding round and plans to set the standard C2C wardrobe recommerce model for the next generation players in the untapped 88 billion dollar market.",
+      "Mahima Kaul co-founded one of India's largest C2C app - CoutLoot which leads the fashion re-commerce market in India. Backed by Facebook, CoutLoot has raised over $1M in it's recent pre-A round led by Chinese P2P Unicorn CashBUS. It's vision is to make products affordable to mass  markets at bargained prices. Popular among Indian youth, CoutLoot which has over a million users is revolutionising the people-to-people commerce segment with it's sophisticated AI enabled tech & focussed user targeting.",
     id: ""
   },
   {
