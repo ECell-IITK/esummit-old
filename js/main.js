@@ -28,8 +28,28 @@
       // Display the UI to let the user toggle notifications
       Notification.requestPermission(function (status) {
         console.log("Notification permission status:", status);
+
+
+    var notification = new Notification('Register for SEE', {
+      body: "Hello World",//body to be written here
+    });
+
+    notification.onclick = function () {
+      window.open("http://ecelliitk.org");//website to be redirected to be written here
+    };
+
+
       });
+
     }
+
+      if (Notification.permission == 'granted') {
+        navigator.serviceWorker.getRegistration().then(function(reg) {
+          reg.showNotification('Hello world!');
+        });
+      }
+
+
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazyload"
     });
