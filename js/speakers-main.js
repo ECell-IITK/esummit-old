@@ -11,6 +11,13 @@ var m_contents = document.getElementById("model_contents");
 // it will automatically generate it
 arr.push(
   {
+    name: "Yogi Adityanath",
+    pic: "images/speakers/yogi-adityanath.jpg",
+    about:
+          "Yogi Adityanath is an Indian monk and Hindu nationalist politician serving as the 22nd and current Chief Minister of Uttar Pradesh, in office since 19 March 2017. He was appointed as the Chief Minister on 26 March 2017 after the Bharatiya Janata Party (BJP) won the 2017 State Assembly elections, in which he was a prominent campaigner. He has been the Member of Parliament from the Gorakhpur constituency, Uttar Pradesh, for five consecutive terms since 1998. Adityanath is also the Mahant or head priest of the Gorakhnath Math, a Hindu temple in Gorakhpur, a position he has held since the death of his spiritual father, Mahant Avaidyanath, in September 2014.",
+    id: ""
+  },
+  {
     name: "P.S. Jayakumar",
     pic: "images/speakers/P.S. Jayakumar.jpg",
     about:
