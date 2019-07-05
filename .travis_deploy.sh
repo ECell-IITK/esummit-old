@@ -15,9 +15,9 @@ echo $PWD
 pushd $HOME
 git clone --branch=$TARGET_BRANCH https://$GITHUB_TOKEN@github.com/$TARGET_REPO_SLUG target
 cd target
+TARGET_GIT_HEAD=$PWD
 eval mkdir -p $TARGET_BASE_DIRECTORY
 eval cd $TARGET_BASE_DIRECTORY
-TARGET_GIT_HEAD=$PWD
 
 # Makes command that will be executed (to clean old files)
 COMMAND="find . -maxdepth 1 ! ( -name . -o -name .. -o -name .git -o -name .gitignore"
@@ -33,7 +33,7 @@ $FINAL_COMMAND
 
 # v1 (on Esummit repo it caused problems)
 # cp -rv $CURRENT_REPO_PATH/* .
-rsync -a $CURRENT_REPO_PATH/* . --exclude .git
+rsync -av $CURRENT_REPO_PATH/* . --exclude .git
 ls -alh
 
 # At this time everything is updated
