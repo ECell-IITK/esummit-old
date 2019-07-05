@@ -1,5 +1,5 @@
 #!/bin/bash
-# Common Variables ------------------------------------------->
+# Common Variables ------------------------------------------>
 # Target Variables
 TARGET_REPO_SLUG=ECell-IITK/ecell-production
 TARGET_BRANCH=master
@@ -7,7 +7,7 @@ TARGET_BASE_DIRECTORY="esummit"
 BUILD_TAG=ESUMMITMASTER
 # Directories not to clean up
 KEEP_DIRECTORIES=(upstart)
-#------------------------------------------------------------->
+#------------------------------------------------------------>
 
 CURRENT_REPO_PATH=$PWD
 echo $PWD
