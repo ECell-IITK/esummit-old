@@ -4,7 +4,7 @@
 TARGET_REPO_SLUG=ECell-IITK/ecell-production
 TARGET_BRANCH=master
 TARGET_BASE_DIRECTORY="esummit"
-BUILD_TAG=ECELLMASTER
+BUILD_TAG=ESUMMITMASTER
 # Directories not to clean up
 KEEP_DIRECTORIES=(upstart)
 #------------------------------------------------------------>
