@@ -1,2 +1,2 @@
-# esummit18
-Website for Entrepreneurial Summit 2018 organised by ECell, IIT Kanpur
+# esummit19
+Website for Entrepreneurial Summit 2019 organised by ECell, IIT Kanpur
