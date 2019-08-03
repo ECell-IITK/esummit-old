@@ -3180,13 +3180,13 @@ footer .social-links li:first-child {
     
   }
   .lines {
-    opacity: 0.05; 
+    opacity: 0; 
   }
   
   .line {
     fill-rule: evenodd;
     clip-rule: evenodd;
-    fill: #4C3A90; }
+    fill: rgba(255, 255, 255, 0.8);; }
   
   .lights {
     opacity: 0.9;
@@ -3195,7 +3195,7 @@ footer .social-links li:first-child {
   .light {
     fill-rule: evenodd;
     clip-rule: evenodd;
-    fill: #7A6BB5; }
+    fill: #fdc501; }
   
   .marginHeader{
       margin-top:120px;

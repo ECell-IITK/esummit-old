@@ -362,7 +362,7 @@ function setSize() {
   var clientHeight = document.getElementById('intro').clientHeight;
   console.log("client height is " + clientHeight);
   var svgElement = document.getElementsByTagName("svg")[0];
-  svgElement.style.height = clientHeight;
+  svgElement.style.height = clientHeight.toString() + "px";
 }
 
 function animateWithRandomNumber(myClass, from, to) {
