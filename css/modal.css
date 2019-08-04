@@ -87,7 +87,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-content > div {
-    padding: 15px 40px 30px;
+    padding: 15px 10px 12px;
     margin: 0;
     font-weight: 300;
     font-size: 1.15em;
@@ -755,7 +755,9 @@ perspective effects (not including the modals and the overlay).
     max-height: 50vh;
     float: right;
     margin: 0 0 0 0;
+    padding: 10px;
     font-family: "montserrat-regular", sans-serif;
+    font-size: 0.7em;
 }
 .md-disc:first-letter{
     font-size: 130%;

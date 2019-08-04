@@ -20,51 +20,43 @@
     });
   });
 
-  /*----------------------------------------------------*/
-  /* Flexslider
-  	/*----------------------------------------------------*/
+  /*----------------------------------------------------------------------------*/
+  /* After Window load
+  /*-----------------------------------------------------------------------------*/
   $(window).load(function () {
-    if ("Notification" in window && navigator.serviceWorker) {
-      // Display the UI to let the user toggle notifications
-      Notification.requestPermission(function (status) {
-        console.log("Notification permission status:", status);
-      });
-    }
+
+    /*----------------------------------------------------*/
+    /* lazy load
+    /*----------------------------------------------------*/
+
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazyload"
     });
 
-    // const esummit = new Date(2018, 7, 24, 18, 0, 0).getTime();
-    // // console.log(esummit.toString());
-
-    // // countdown
-    // let timer = setInterval(function () {
-
-    //   // get today's date
-    //   const today = new Date().getTime();
-
-    //   // get the difference
-    //   const diff = esummit - today;
-
-    //   // math
-    //   let days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    //   let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    //   let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    //   let seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    //   // display
-    //   document.getElementById("timer").innerHTML =
-    //     "<div class=\"days\"> \
-    //       <div class=\"numbers\">" + days + "</div><div>days</div></div> \
-    //     <div class=\"hours\"> \
-    //       <div class=\"numbers\">" + hours + "</div><div>hours</div></div> \
-    //     <div class=\"minutes\"> \
-    //       <div class=\"numbers\">" + minutes + "</div><div>minutes</div></div> \
-    //     <div class=\"seconds\"> \
-    //       <div class=\"numbers\">" + seconds + "</div><div>seconds</div></div> \
-    //     </div>";
-
-    // }, 1000);
+    /*----------------------------------------------------*/
+    /* E-Summit countdown timer
+    /*----------------------------------------------------*/
+    const esummit = new Date(2019, 7, 30, 18, 0, 0).getTime();
+    setInterval(function () {
+      const today = new Date().getTime();
+      const diff = esummit - today;
+      if (diff < 0)
+        return;
+      let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      document.getElementById("timer").innerHTML =
+        "<div class=\"days\"> \
+        <div class=\"numbers\">" + days + "</div><div>days</div></div> \
+      <div class=\"hours\"> \
+        <div class=\"numbers\">" + hours + "</div><div>hours</div></div> \
+      <div class=\"minutes\"> \
+        <div class=\"numbers\">" + minutes + "</div><div>minutes</div></div> \
+      <div class=\"seconds\"> \
+        <div class=\"numbers\">" + seconds + "</div><div>seconds</div></div> \
+      </div>";
+    }, 1000);
 
 
     $("#hero-slider").flexslider({
@@ -91,7 +83,6 @@
           .addClass("animated fadeInDown show")
           .next()
           .addClass("animated fadeInUp show");
-
         $(window).trigger("resize");
       },
       after: function (slider) {
@@ -120,7 +111,7 @@
       $("#event-popup-container").html(data);
       /*----------------------------------------------------*/
       /*	Modal Popup
-	------------------------------------------------------*/
+	    ------------------------------------------------------*/
       $(".item-wrap a").magnificPopup({
         type: "inline",
         fixedContentPos: false,
@@ -299,8 +290,7 @@
 
     $("html, body")
       .stop()
-      .animate(
-        {
+      .animate({
           scrollTop: $target.offset().top
         },
         800,
@@ -366,7 +356,9 @@ function setSize() {
 }
 
 function animateWithRandomNumber(myClass, from, to) {
-  TweenLite.fromTo(myClass, Math.floor((Math.random() * 20) + 1), { y: from }, {
+  TweenLite.fromTo(myClass, Math.floor((Math.random() * 20) + 1), {
+    y: from
+  }, {
     y: to,
     onComplete: animateWithRandomNumber,
     onCompleteParams: [myClass, from, to],

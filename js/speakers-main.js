@@ -218,7 +218,7 @@ for (var i = 0; i < arr.length; i++) {
 function addspeaker(x) {
   //creates an model element to be appended to the m_content class=============================
 
-  //The first word in the name of the variables tells
+  // The first word in the name of the variables tells
   // about the type of element
   // and the numbers after these tells us about the
   // position with respect to the parent element
