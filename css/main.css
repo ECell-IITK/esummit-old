@@ -1579,6 +1579,11 @@ ul#nav li.current a:after {
     color: #a1a1a1;
     margin-bottom: 12px;
 }
+.popup-modal .description-box p h3{
+    font: 14px/24px "merriweather-regular", serif;
+    color: #a1a1a1;
+    margin-bottom: 12px;
+}
 
 /* categories */
 
