@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html class="gr__" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mail-Flyer-2019</title>
+
+    <!--link rel="stylesheet" type="text/css" href="css/style.css" /-->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans: 400,500,600,700');
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+        .header {
+            width: 100%;
+            background: #124559;
+        }
+        .header a{
+            padding: 0;
+        }
+        .header img {
+            width: 100%;
+        }
+        @media screen and (max-width: 767px) {
+            .blocks {
+                width: 100vw;
+                /* border: 1px solid red; /**/
+            }
+            body {
+                width: 100vw;
+                border: 2px dotted black;
+                /* */
+                margin: auto;
+                font-family: 'Open Sans', sans-serif;
+                color: #323232;
+                font-size: 15px;
+                background-color: #121212;
+                /*background-image: url("mailer_see_air.jpg");*/
+            }
+            a {
+                text-decoration: none;
+            }
+            /*********** header ***********/
+            header {
+                /* height: 350px; */
+                /* background-image: url("http://aaiitkblr.org/see/wp-content/uploads/2018/12/background.png"); */
+                color: white;
+                background-color: #124559;
+                background-size: cover;
+            }
+            #see_head {
+                height: 65px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #see_head img {
+                height: 40px;
+                padding: 0px 15px;
+                /*border: 1px solid blue;/* */
+            }
+            #see_head #ecell {
+                height: 50px;
+            }
+            header #text {
+                height: 150px;
+                display: flex;
+                /*border: 1px solid blue;/* */
+                flex-direction: column;
+                align-items: center;
+            }
+            header h1 {
+                font-weight: 700;
+                font-size: 50px;
+                text-transform: uppercase;
+                margin: 19px auto 0px auto;
+            }
+            #ww {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #ww hr {
+                border: 0;
+                margin: 0px 6px;
+                height: 2px;
+                background: #fff;
+                width: 72px;
+            }
+            #text p {
+                text-transform: uppercase;
+                margin: 10px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .register-bt {
+                width: 200px;
+                margin: 42px auto;
+                height: 42px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 21px;
+                background-color: #124559;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            #register {
+                width: 200px;
+                margin: 42px auto;
+                height: 42px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 21px;
+                background-color: #124559;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            #register:hover {
+                background-color: white;
+                color: #124559;
+                font-weight: 700;
+            }
+            a:visited,
+            a:link {
+                color: white;
+            }
+            /************ description ***************/
+            #description {
+                height: auto;
+                background-color: #dfdfe2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #description p {
+                padding: 25px 40px;
+                text-align: center;
+            }
+            /************ points ***************/
+            #points {
+                height: auto;
+                background-color: #eeeef0;
+                border: 1px solid #eeeef0;
+                /* */
+            }
+            #points ul {
+                /* border: 1px dotted black; */
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0px 15px 20px 15px;
+                padding: 35px 0px;
+                justify-content: space-evenly;
+                flex-direction: column;
+            }
+            #points li {
+                /*border: 1px solid red;/* */
+                list-style-type: none;
+                margin: 0;
+                padding: 15px 15px;
+                margin: 5px 0px;
+            }
+            #point {
+                /*border: 1px solid blue;/* */
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            #point img {
+                height: 150px;
+                width: 150px;
+                border-radius: 100%;
+                /*border: 1px solid red;/* */
+            }
+            #point h4 {
+                font-size: 20px;
+                margin: 18px 0 15px 0;
+                text-transform: uppercase;
+            }
+            #point hr {
+                border: 0;
+                margin: 0px 20px;
+                height: 2px;
+                background: #727273;
+                width: 200px;
+                opacity: .37;
+            }
+            /************ footer ***************/
+            #blue_line {
+                border: 0;
+                margin: 0px;
+                height: 3px;
+                background: #124559;
+            }
+            #footer {
+                height: auto;
+                background-color: #124559;
+                /**/
+                color: #dfdfe2;
+            }
+            #footer #logo {
+                /*border: 1px solid blue; */
+                width: 100vw;
+                height: auto;
+                background-color: white;
+            }
+            #logo img {
+                width: 100vw;
+                height: auto;
+            }
+            #contact {
+                display: flex;
+                align-items: flex-end;
+                padding: 20px 10px;
+                justify-content: space-between;
+            }
+            #contact_us {
+                margin: 0;
+                color: #5393ac;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            #footer p {
+                margin: 0;
+            }
+            #footer .names {
+                font-family: 'Roboto Mono', monospace;
+            }
+            #footer #numbers {
+                padding-right: 0px;
+            }
+            #footer #contact img {
+                height: 40px;
+                padding: 0 0 0 0px;
+                margin-left: 0px;
+                opacity: 0.8;
+            }
+            #footer img:hover {
+                opacity: 1;
+            }
+        }
+        
+        @media screen and (max-width: 550px) {
+            #contact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            #contact_us {
+                font-size: 11px;
+            }
+            .names {
+                font-size: 13px;
+            }
+            #names {
+                margin-bottom: 20px;
+            }
+            #online {
+                display: flex;
+                width: 90vw;
+                padding: 0 10px;
+                justify-content: space-between;
+            }
+        }
+        
+        @media screen and (max-width: 350px) {
+            /*********** header ***********/
+            header {
+                /* height: 300px; */
+                /* background-image: url("http://aaiitkblr.org/see/wp-content/uploads/2018/12/background.png"); */
+                color: white;
+                background-color: #124559;
+                background-size: cover;
+            }
+            #see_head {
+                height: 60px;
+            }
+            #see_head img {
+                height: 35px;
+                padding: 0px 5px;
+                /*border: 1px solid blue;/* */
+            }
+            #see_head #ecell {
+                height: 44px;
+            }
+            header #text {
+                height: 125px;
+                display: flex;
+                /*border: 1px solid blue;/* */
+                flex-direction: column;
+                align-items: center;
+            }
+            header h1 {
+                font-weight: 700;
+                font-size: 40px;
+                text-transform: uppercase;
+                margin: 19px auto 0px auto;
+            }
+            #ww hr {
+                border: 0;
+                margin: 0px 6px;
+                width: 55px;
+            }
+            #text p {
+                margin: 0px;
+                font-size: 15px;
+                font-weight: 600;
+            }
+            #register {
+                width: 180px;
+                margin: 20px auto;
+                height: 36px;
+                border-radius: 18px;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+        
+        h3 {
+            justify-content: center;
+            color: black;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .blocks {
+                width: 1000px;
+                /*border: 1px solid red;/* */
+            }
+            body {
+                width: 1000px;
+                /*border: 2px dotted black;/* */
+                margin: auto;
+                font-family: 'Open Sans', sans-serif;
+                color: #323232;
+                font-size: 18px;
+                background-color: #121212;
+            }
+            a {
+                text-decoration: none;
+            }
+            /*********** header ***********/
+            header {
+                /* height: 450px; */
+                /* background-image: url("http://aaiitkblr.org/see/wp-content/uploads/2018/12/background.png"); */
+                color: white;
+                background-color: #124559;
+                background-size: cover;
+            }
+            #see_head {
+                height: 85px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 22px 15px 22px;
+                width: 783px;
+            }
+            #see_head img {
+                height: 70px;
+                /*border: 1px solid blue;/* */
+            }
+            #see_head #ecell {
+                height: 125px;
+            }
+            header #text {
+                height: 150px;
+                display: flex;
+                /*border: 1px solid blue;/* */
+                flex-direction: column;
+                align-items: center;
+            }
+            header h1 {
+                font-weight: 700;
+                font-size: 60px;
+                text-transform: uppercase;
+                margin: 7px auto 0px auto;
+            }
+            #ww {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #ww hr {
+                border: 0;
+                margin: 0px 20px;
+                height: 2px;
+                background: #fff;
+                width: 90px;
+            }
+            #text p {
+                text-transform: uppercase;
+                margin: 15px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            #register {
+                /* width: auto; */
+                height: 42px;
+                margin: 42px 295px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 21px;
+                background-color: #124559;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 17px;
+            }
+            #register:hover {
+                background-color: white;
+                color: #5aa6c4;
+                font-weight: 700;
+            }
+            a:visited,
+            a:link {
+                color: white;
+            }
+            /************ description ***************/
+            #description {
+                height: 237.8px;
+                background-color: #dfdfe2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #description p {
+                padding: 0px 111px 0px 111px;
+                text-align: center;
+            }
+            /************ points ***************/
+            #points {
+                /* height: 592px; */
+                background-color: #eeeef0;
+            }
+            #points ul {
+                /* border: 1px dotted black; */
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0px 15px 0px 15px;
+                padding: 35px 0px;
+                justify-content: space-evenly;
+            }
+            #points li {
+                /*border: 1px solid red;/* */
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                margin: 5px 0px;
+            }
+            #point {
+                /*border: 1px solid blue;/* */
+                /* width: 200px; */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 15px;
+                /* height: 200px; */
+            }
+            #point p {
+                min-height: 170px;
+            }
+            .cols-4 {
+                width: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .cols-3 {
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .cols-2 {
+                width: 350px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            #point img {
+                height: 150px;
+                width: 150px;
+                border-radius: 100%;
+                /*border: 1px solid red;/* */
+            }
+            #point h4 {
+                font-size: 24px;
+                margin: 20px 0 18px 0;
+                text-transform: uppercase;
+            }
+            #point hr {
+                border: 0;
+                margin: 0px 20px;
+                height: 2px;
+                background: #727273;
+                width: 200px;
+                opacity: .37;
+            }
+            /************ footer ***************/
+            #blue_line {
+                border: 0;
+                margin: 0px;
+                height: 4px;
+                background: #124559;
+            }
+            #footer {
+                /* height: 250px; */
+                background-color: #124559;
+                /**/
+                color: #dfdfe2;
+            }
+            #footer #logo {
+                /*border: 1px solid blue; */
+                height: 140px;
+                background-color: white;
+            }
+            #logo img {
+                height: 140px;
+            }
+            #contact {
+                display: flex;
+                align-items: flex-end;
+                padding: 20px 90px;
+                justify-content: space-between;
+            }
+            #contact_us {
+                margin: 0;
+                color: #5393ac;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            #footer p {
+                margin: 0;
+            }
+            #footer .names {
+                font-family: 'Roboto Mono', monospace;
+            }
+            #footer #contact img {
+                height: 50px;
+                padding: 0 0 0 5px;
+                opacity: 0.8;
+            }
+            #footer img:hover {
+                opacity: 1;
+            }
+            .button-cols2 {
+                width: 150px;
+            }
+            .button-cols3 {
+                width: 80px;
+                margin: 0;
+                vertical-align: top;
+                font-size: 12px;
+            }
+            .width-auto {
+                width: 300px;
+                ;
+            }
+            #points .content-side-button li {
+                /* list-style-type:; */
+                margin: 0;
+                padding: 0;
+                /* margin: 5px 0px; */
+            }
+            #points .content-side-button ul {
+                display: flex;
+                flex-wrap: wrap;
+                /* margin: 0px 15px 20px 15px;
+                padding: 35px 0px; */
+                margin: 0;
+                padding: 0;
+                justify-content: space-evenly;
+            }
+            .content {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 10px 0;
+            }
+            .content-title {
+                margin-right: 25px;
+            }
+        }
+        
+        .center-head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h5 {
+            margin: 7px 0;
+        }
+        
+        h6 {
+            margin: 0 0;
+        }
+    </style>
+
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+    <!-- <header class="blocks">
+        <div id="see_head" class="blocks">
+            <a href="http://aaiitkblr.org/see/" target="_blank"><img src="http://aaiitkblr.org/see/wp-content/uploads/2018/12/see-logo.png" alt="SEE LOGO" /></a>
+            <a href="https://www.facebook.com/ecelliitk/" target="_blank">
+                <img id="ecell" src="https://www.ecelliitk.org/esummit/images/esummit_logo_white.png" alt="E-Cell IIT Kanpur LOGO"></a>
+        </div>
+        <div id="text" class="blocks">
+            <h1>Care for Air</h1>
+            <div id="ww">
+                <hr>
+                <p>10 Jan | IIT Kanpur</p>
+                <hr>
+            </div>
+        </div>
+        <a href="https://www.townscript.com/e/seecentral-careforair/booking" id="register" class="blocks">
+            Register Now
+    </a>
+    </header> -->
+
+    <!-- <div id="description" class="blocks">
+        <p>
+            The event will cover successful Social Entrepreneurs who have created a significant impact by Caring about the Air, understanding opportunities and gaps in this area, discussion on various schemes from Government for the same and the innovations happening
+            in this sector.
+        </p>
+    </div> -->
+    <div  class="header">
+        <a href="https://www.ecelliitk.org/esummit">
+            <img id="ecell" src="https://www.ecelliitk.org/esummit/flyer/header.png" alt="E-summit'19 IIT Kanpur LOGO">
+        </a>
+    </div>
+
+    <div id="points" class="blocks" style="background-color:#cc9900">
+        <div class="center-head">
+            <h2 style="margin-bottom: 0;">SPEAKERS</h2>
+
+        </div>
+
+        <ul>
+            <li>
+                <div id="point" class="cols-4">
+                    <img src="https://www.ecelliitk.org/esummit/flyer/4.png" alt="Keynote icon">
+                    <h5>Ashok Soota</h5>
+                    <h6>CO-FOUNDER, Mind Tree</h6>
+                </div>
+            </li>
+            <li>
+                <div id="point" class="cols-4">
+                    <img src="https://www.ecelliitk.org/esummit/flyer/1.png" alt="Keynote icon">
+                    <h5>Balaji Viswanathan</h5>
+                    <h6>Most followed Quoran</h6>
+                </div>
+            </li>
+            <li>
+                <div id="point" class="cols-4">
+                    <img src="https://www.ecelliitk.org/esummit/flyer/2.png" alt="Keynote icon">
+                    <h5>Lalit Jalan</h5>
+                    <h6>Ex-CEO, Reliance Infra</h6>
+                </div>
+            </li>
+            <li>
+                <div id="point" class="cols-4">
+                    <img src="https://www.ecelliitk.org/esummit/flyer/3.png" alt="Keynote icon">
+                    <h5>Prakash Sangam</h5>
+                    <h6>CEO, Red Bus</h6>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 3 columns -->
+    <div id="points" class="blocks" style="background-color:#e8fcfc">
+        <ul>
+            <li>
+                <div id="point" class="cols-3">
+
+                    <h4>Competitions</h4>
+                    <hr>
+                    <div class="content-side-button">
+                        <ul>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Upstart &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5> <a href="https://www.townscript.com/e/upstart-finale/" id="register" class="blocks button-cols3" style="margin: 0;margin-left: 4px;font-size:12px">
+                                                Enroll
+                                            </a>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Biz-Quiz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5> <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks button-cols3" style="margin: 0;margin-left: 4px;font-size:12px">
+                                                    Enroll
+                                                </a>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Stock The Stock</h5> <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks button-cols3" style="margin: 0;margin-left: 4px;font-size:12px">
+                                                        Enroll
+                                                    </a>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Pichters 2.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5> <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks button-cols3" style="margin: 0;margin-left: 4px;font-size:12px">
+                                                            Enroll
+                                                        </a>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Decrypt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5> <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks button-cols3" style="margin: 0;margin-left: 4px;font-size:12px">
+                                                                Enroll
+                                                            </a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div id="point" class="cols-3">
+
+                    <h4>Sessions</h4>
+                    <hr>
+                    <p>Entrepreneurs who have proved themselves as the 
+mavericks will come to share their success stories and ideology. 
+Sessions would be ranging from technopreneurs to young achievers, and 
+women to corporate.
+                    </p>
+                    <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks button-cols2">
+                            Register
+                        </a>
+                </div>
+            </li>
+            <li>
+                <div id="point" class="cols-3">
+
+                    <h4>Workshops</h4>
+                    <hr>
+
+                    <div class="content-side-button">
+                        <ul>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Dehumanizing startups <br> via AI &amp; ML</h5>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Fintech &amp; Emerging Tech</h5>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Design Thinking</h5>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <br>
+                                    <h5 class="content-title">Wealth creation in stock market</h5>
+                                    <br>
+                                </div>
+                            </li>
+                            <li style="padding: 0;margin:0">
+                                <div class="content">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScMveqQU2WiIxE5MSgDcKkQb2ns99y3F4e0a0ePAeqd50W-ng/viewform" id="register" class="blocks button-cols2" style="margin: 0;margin-left: 4px;font-size:15px">
+                                        Register
+                                    </a>
+                                </div>
+                            </li>
+                    </ul></div>
+                </div>
+            </li>
+            </ul>
+    </div>
+    <!--  -->
+
+
+    <!-- 2 columns -->
+    <div id="points" class="blocks" style="background-color:#cc9900">
+        <ul>
+            <li>
+                <div id="point" class="cols-2">
+                    <!-- <img src="http://aaiitkblr.org/see/wp-content/uploads/2018/12/keynote_icon.png" alt="Keynote icon" /> -->
+                    <h4>Merchandise</h4>
+                    <hr><br>
+                    <img src="https://www.ecelliitk.org/esummit/flyer/merch.jpg" alt="Keynote icon" style="border-radius: 0;width:320px;height:200px">
+                    <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks button-cols2">
+                            Buy Now
+                        </a>
+                </div>
+            </li>
+            <li>
+                <div id="point" class="cols-2">
+                    <!-- <img src="http://aaiitkblr.org/see/wp-content/uploads/2018/12/stories_icon.png" alt="Stories icon" /> -->
+                    <h4>StartUp Expo</h4>
+                    <hr>
+                    <p>In this edition of E-Summit, we are introducing 
+StartUP Expo. With this, we are giving Budding StartUps a chance to 
+showcase their product to 1000+ participants, 6000+ campus residents, 
+30+ Speakers, 10+ VCs and Investors for the entire duration of Summit. 
+You will get On-Spot mentoring and networking opportunities. </p>
+                    <a href="https://www.townscript.com/e/startup-expo-134201/" id="register" class="blocks button-cols2">
+                        Book
+                    </a>
+
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!--  -->
+
+
+    <div id="points" class="blocks " style="height: 100px;background-color:#e8fcfc;display:flex;align-items: center;justify-content: center"><br>
+        <a href="https://www.townscript.com/e/esummit19/booking" id="register" class="blocks width-auto">
+                Register Now
+            </a>
+
+    </div>
+
+
+    <hr id="blue_line">
+    <div id="footer" class="blocks">
+        <div>
+            <!-- <img src="http://aaiitkblr.org/see/wp-content/uploads/2018/12/logos.jpg" /> -->
+
+        </div>
+        <div id="contact">
+            <div id="names">
+                <p id="contact_us">
+                    </p><h2>CONTACT US</h2>
+                <p></p>
+                <p class="names">Ayush Sharma &nbsp; : +91 89494 97046</p>
+                <p class="names">Tanmay Yadav &nbsp; : +91 91493 38300</p>
+                <p class="names">Pathik Chamaria &nbsp; : +91 72597 34114</p>
+            </div>
+            <div id="online">
+                <a href="http://www.ecelliitk.org/esummit" target="_blank"><img src="https://www.ecelliitk.org/esummit/flyer/www.png" alt="go to website"></a>
+                <a href="https://www.facebook.com/ecelliitk/" target="_blank"><img src="https://www.ecelliitk.org/esummit/flyer/fb.png" alt="go to facebook page"></a>
+                <a href="https://www.linkedin.com/company/entrepreneurship-cell-iit-kanpur/" target="_blank"><img src="https://www.ecelliitk.org/esummit/flyer/linkedin.png" alt="go to website"></a>
+                <a href="https://www.instagram.com/ecelliitk/" target="_blank"><img src="https://www.ecelliitk.org/esummit/flyer/insta.png" alt="go to website"></a>
+                <a href="https://twitter.com/ecelliitk" target="_blank"><img src="https://www.ecelliitk.org/esummit/flyer/twitter.png" alt="go to website"></a>
+                <a href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ" target="_blank"><img src="https://www.ecelliitk.org/esummit/flyer/youtube.png" alt="go to website"></a>
+            </div><br><br>
+        </div>
+    </div>
+
+
+
+</body></html>
