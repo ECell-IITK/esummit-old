@@ -48,6 +48,10 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
 }
+@font-face {
+    font-family: 'Bazar';
+    src: url('../fonts/Bazar.ttf')  format('truetype');
+}
 
 /* links 
 ---------------------------------------------------------------------- */
@@ -346,7 +350,7 @@ img.pull-left {
     }
 }
 
-/* 
+/*
 /* 03. =Preloader
 /* =================================================================== */
 
@@ -356,10 +360,11 @@ img.pull-left {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0f1215;
+    background: #222;
     z-index: 9999999;
     height: 100%;
     width: 100%;
+    font-family: 'Bazar';
 }
 
 .no-js #preloader,
@@ -368,50 +373,61 @@ img.pull-left {
 }
 
 #loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    margin-left: -25px;
-    margin-top: -25px;
-    background-color: #fdc501;
-    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-    animation: sk-rotateplane 1.2s infinite ease-in-out;
+    margin-top: 20vh;;
 }
 
-@-webkit-keyframes sk-rotateplane {
-    0% {
-        -webkit-transform: perspective(120px);
-    }
-
-    50% {
-        -webkit-transform: perspective(120px) rotateY(180deg);
-    }
-
-    100% {
-        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
-    }
+#loader svg {
+    display: block;
+    font: 150px 'Bazar';
+    width: 100vw;
+    height: 200px;
+    margin: 0 auto;
 }
 
-@keyframes sk-rotateplane {
-    0% {
-        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    }
-
-    50% {
-        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    }
-
-    100% {
-        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    }
+.spacer {
+    min-height: 140px;
 }
 
-/* 
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #F0A202;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #e64e04;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #fff49b;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #fd8a01;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+/*
 /* 04. =forms
 /* =================================================================== */
 
