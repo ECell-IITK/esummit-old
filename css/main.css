@@ -3077,6 +3077,20 @@ footer .social-links li:first-child {
     max-width: 90vw;
 }
 
+#all-speakers-present {
+    background-image: url("../images/speakers/argyle.png");
+    background-repeat: repeat;
+    padding: 120px 0;
+}
+
+#all-speakers-present .section-head {
+    padding-bottom: 60px;
+}
+
+#all-speakers-present .md-modal .md-content {
+    max-width: 90vw;
+}
+
 /**All speakers end***************************************************/
 
 @media only screen and (max-width: 1500px) {
