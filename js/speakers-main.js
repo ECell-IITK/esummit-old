@@ -391,7 +391,7 @@ arrPresent.push(
   {
     name: "Gaurav Agarwal",
     pic: "images/speakers/present/gauravAgarwal.jpg",
-    about: "",
+    about: "He is an IIT Kanpur alumnus who recently founded OKCredit in 2017. OkCredit is a mobile based solution for small business owners and their customers to enable recording of credit/payment transactions digitally all across the country.    ",
     id: ""
   },
 
@@ -404,7 +404,7 @@ arrPresent.push(
   {
     name: "Sushanto Mitra",
     pic: "images/speakers/present/sushantoMitra.jpg",
-    about: "",
+    about: "He is an alumnus of St. Stephens College and Founder & CEO of Lead Angels. The aim of the company is improving early stage investment outcomes. The team accomplishes this by providing professional assistance to investor-members in company evaluation and the portfolio companies in their operations. ",
     id: ""
   },
   {
