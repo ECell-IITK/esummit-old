@@ -9,6 +9,11 @@ var section = document.getElementById("sponsors");
 // it will automatically generate it
 arr.push(
     {
+        name: "Incubation and Innovation, IITK",
+        pic: "images/sponsors/2019/incubation.png",
+        id: ""
+    },
+    {
         name: "Asti Infotech",
         pic: "images/sponsors/2019/astiInfo.jpeg",
         id: ""
@@ -46,11 +51,6 @@ arr.push(
     {
         name: "Inc42",
         pic: "images/sponsors/2019/inc42.png",
-        id: ""
-    },
-    {
-        name: "Incubation and Innovation, IITK",
-        pic: "images/sponsors/2019/incubation.png",
         id: ""
     },
     {
