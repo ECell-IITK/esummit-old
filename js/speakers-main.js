@@ -326,35 +326,26 @@ arrPresent.push(
   {
     name: "Lalit Jalan",
     pic: "images/speakers/present/lalitJalan.jpg",
-    about: "",
+    about: "Lalit Jalan is the Advisor & former Chief Executive Officer of Reliance Infrastructure, part of the Reliance Anil Dhirubhai Ambani Group (ADAG), one of India's largest corporate houses. He is the Chairman of BSES Rajdhani & BSES Yamuna and serves as Director in several companies including Reliance Defence Ltd, which is associated with Rafale deal between India & France. Apart from his major responsibilities in the Reliance group owned by Anil Ambani, he is also a Director of several other firms which are from his native town Kolkata and some bear his family name \"Jalan\" including Jalan Brothers Private Limited, Jalan Properties Private Limited, Jalan Infosystems Private Limited, Jalan Reality Private Limited, Data Ware Private Limited etc, which are not part of the Reliance Group or belonging to Anil Ambani. ",
     id: ""
   },
   {
-    name: "Abhinay Chaudhary",
-    pic: "images/speakers/present/abhinayc.jpg",
-    about: "",
+    name: "Balaji Viswanathan",
+    pic: "images/speakers/present/balajivishv.png",
+    about: "Balaji Vishwanathan is the CEO of Invento Robotics, ",
     id: ""
   },
   {
     name: "Amit Agarwal",
     pic: "images/speakers/present/amitAgarwal.jpg",
     about:
-      "Being an entrepreneur is exhilarating. It is filled with doubt, excitement, insecurity, and a sense of achievement all at once. Mr Amit Agarwal, an alumnus of IIT Kanpur founded NoBroker, a C2C brokerage-free real estate marketplace in India, over three years ago. NoBroker business model is disruptive, tech-based, capital-efficient and designed to be globally scalable. He bootstrapped for a good time, worried about funds and raised three rounds of VC funding of $20 Mn. He developed a good understanding of the complicated organization and underlying financial processes. In one of his interview, he said ‘We entrepreneurs have done enough mistakes. It’s time to learn from each other.’",
+    "Being an entrepreneur is exhilarating. It is filled with doubt, excitement, insecurity, and a sense of achievement all at once. Mr Amit Agarwal, an alumnus of IIT Kanpur founded NoBroker, a C2C brokerage-free real estate marketplace in India, over three years ago. NoBroker business model is disruptive, tech-based, capital-efficient and designed to be globally scalable. He bootstrapped for a good time, worried about funds and raised three rounds of VC funding of $20 Mn. He developed a good understanding of the complicated organization and underlying financial processes. In one of his interview, he said ‘We entrepreneurs have done enough mistakes. It’s time to learn from each other.’",
     id: ""
   },
   {
-    name: "Priyanka Kanwar",
-    pic: "images/speakers/present/Priyanka-Kanwar.jpg",
-    about:
-      "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
-    id: ""
-  },
-
-
-  {
-    name: "Sachin Sharma",
-    pic: "images/speakers/present/sachinSharma.jpg",
-    about: "Townscript was started with keeping a simple mission in mind, making online event registrations and ticketing an easy and awesome experience for event organizers and bridging the gap between organizers and enthusiasts. Since it was founded, it has associated itself with over 136000+ events in 6770+ cities across the world. E-Summit '19 is honoured to invite the founder of Townscript and IITK Alumni, Mr Sachin Sharma.",
+    name: "Abhinay Chaudhary",
+    pic: "images/speakers/present/abhinayc.jpg",
+    about: "",
     id: ""
   },
   {
@@ -376,31 +367,19 @@ arrPresent.push(
     id: ""
   },
   {
-    name: "Vivek Prakash",
-    pic: "images/speakers/present/vivekPrakash.jpeg",
-    about: "This E-Summit’19, Entrepreneurship Cell presents to you our first speaker Mr. Vivek Prakash, Co-Founder of HackerEarth. He is a graduate of IIT Roorkee where he majored in Computer Science and Information Technology. HackerEarth provides enterprise software solutions that help organizations in their innovation management and talent assessment endeavours. HackerEarth Recruit is a talent assessment platform that helps in efficient technical talent screening allowing organizations to build strong, proficient teams.",
-    id: ""
-  },
-
-  {
-    name: "Balaji Viswanathan",
-    pic: "images/speakers/present/balajivishv.png",
-    about: "",
-    id: ""
-  },
-  {
     name: "Gaurav Agarwal",
     pic: "images/speakers/present/gauravAgarwal.jpg",
     about: "He is an IIT Kanpur alumnus who recently founded OKCredit in 2017. OkCredit is a mobile based solution for small business owners and their customers to enable recording of credit/payment transactions digitally all across the country.    ",
     id: ""
   },
-
   {
-    name: "Suchi Mukherjee",
-    pic: "images/speakers/present/suchiMukherjee.jpg",
-    about: "",
+    name: "Priyanka Kanwar",
+    pic: "images/speakers/present/Priyanka-Kanwar.jpg",
+    about:
+      "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
     id: ""
   },
+
   {
     name: "Sushanto Mitra",
     pic: "images/speakers/present/sushantoMitra.jpg",
@@ -410,6 +389,27 @@ arrPresent.push(
   {
     name: "Taranjeet",
     pic: "images/speakers/present/taranjeet.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Sachin Sharma",
+    pic: "images/speakers/present/sachinSharma.jpg",
+    about: "Townscript was started with keeping a simple mission in mind, making online event registrations and ticketing an easy and awesome experience for event organizers and bridging the gap between organizers and enthusiasts. Since it was founded, it has associated itself with over 136000+ events in 6770+ cities across the world. E-Summit '19 is honoured to invite the founder of Townscript and IITK Alumni, Mr Sachin Sharma.",
+    id: ""
+  },
+  {
+    name: "Vivek Prakash",
+    pic: "images/speakers/present/vivekPrakash.jpeg",
+    about: "This E-Summit’19, Entrepreneurship Cell presents to you our first speaker Mr. Vivek Prakash, Co-Founder of HackerEarth. He is a graduate of IIT Roorkee where he majored in Computer Science and Information Technology. HackerEarth provides enterprise software solutions that help organizations in their innovation management and talent assessment endeavours. HackerEarth Recruit is a talent assessment platform that helps in efficient technical talent screening allowing organizations to build strong, proficient teams.",
+    id: ""
+  },
+
+
+  {
+    name: "Suchi Mukherjee",
+    pic: "images/speakers/present/suchiMukherjee.jpg",
     about: "",
     id: ""
   },

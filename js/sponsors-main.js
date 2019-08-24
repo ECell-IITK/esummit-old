@@ -177,7 +177,8 @@ function addsponsor(x) {
     var ddiv112 = document.createElement("div");
     ddiv112.classList.add("speaker-name");
     var dh21121 = document.createElement("h2");
-    dh21121.innerText = arr[x].name;
+    // dh21121.innerText = arr[x].name;
+    dh21121.innerText = ' ';
     ddiv111.appendChild(dimg1111);
     ddiv112.appendChild(dh21121);
     ddiv1.appendChild(ddiv111);
