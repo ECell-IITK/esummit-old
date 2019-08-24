@@ -14,7 +14,7 @@ arr.push(
     name: "Yogi Adityanath",
     pic: "images/speakers/yogi-adityanath.jpg",
     about:
-          "Yogi Adityanath is an Indian monk and Hindu nationalist politician serving as the 22nd and current Chief Minister of Uttar Pradesh, in office since 19 March 2017. He was appointed as the Chief Minister on 26 March 2017 after the Bharatiya Janata Party (BJP) won the 2017 State Assembly elections, in which he was a prominent campaigner. He has been the Member of Parliament from the Gorakhpur constituency, Uttar Pradesh, for five consecutive terms since 1998. Adityanath is also the Mahant or head priest of the Gorakhnath Math, a Hindu temple in Gorakhpur, a position he has held since the death of his spiritual father, Mahant Avaidyanath, in September 2014.",
+      "Yogi Adityanath is an Indian monk and Hindu nationalist politician serving as the 22nd and current Chief Minister of Uttar Pradesh, in office since 19 March 2017. He was appointed as the Chief Minister on 26 March 2017 after the Bharatiya Janata Party (BJP) won the 2017 State Assembly elections, in which he was a prominent campaigner. He has been the Member of Parliament from the Gorakhpur constituency, Uttar Pradesh, for five consecutive terms since 1998. Adityanath is also the Mahant or head priest of the Gorakhnath Math, a Hindu temple in Gorakhpur, a position he has held since the death of his spiritual father, Mahant Avaidyanath, in September 2014.",
     id: ""
   },
   {
@@ -29,7 +29,7 @@ arr.push(
     pic: "images/speakers/mahesh.jpg",
     about: "Mahesh Gupta, a first generation entrepreneur and the founder of Kent RO Systems Ltd., is an alumnus IIT Kanpur Mechanical Engineering department. Kent, founded in 1999, now sells more than 225,000 RO purifiers every year and holds around 40% market share in India. The “Pure Water Man of India”, as Dr. Gupta is also known as, has also been conferred upon by an Honorary Doctorate degree by Sri Sri University Orissa, for his contribution in providing safe and healthy drinking water in Rural and Urban areas. "
     ,
-    id:""
+    id: ""
   },
   {
     name: "Sandeep Jain",
@@ -301,6 +301,210 @@ function addspeaker(x) {
   //Detect The last row by the "row-detect" class
   //and adds the created element
   var sbgrid = document.getElementsByClassName("row-detect");
+  var num = sbgrid.length - 1;
+  sbgrid[num].appendChild(ddiv1);
+}
+
+
+var arrPresent = [];
+var section_present = document.getElementById("all-speakers-present");
+var m_contents_present = document.getElementById("model_contents_present");
+
+//To add a speaker just add an element
+// in the below array and add its
+//respective properties like name, pic, about, etc
+//(
+//and keep the element id as NULL
+// it will automatically generate it
+arrPresent.push(
+  {
+    name: "Priyanka Kanwar",
+    pic: "images/speakers/present/Priyanka-Kanwar.jpg",
+    about:
+      "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
+    id: ""
+  },
+  {
+    name: "Amit Agarwal",
+    pic: "images/speakers/present/amitAgarwal.jpg",
+    about:
+      "Being an entrepreneur is exhilarating. It is filled with doubt, excitement, insecurity, and a sense of achievement all at once. Mr Amit Agarwal, an alumnus of IIT Kanpur founded NoBroker, a C2C brokerage-free real estate marketplace in India, over three years ago. NoBroker business model is disruptive, tech-based, capital-efficient and designed to be globally scalable. He bootstrapped for a good time, worried about funds and raised three rounds of VC funding of $20 Mn. He developed a good understanding of the complicated organization and underlying financial processes. In one of his interview, he said ‘We entrepreneurs have done enough mistakes. It’s time to learn from each other.’",
+    id: ""
+  },
+  {
+    name: "Ashok Soota",
+    pic: "images/speakers/present/ashokSoota.jpg",
+    about: "From leading the growth of WIPRO's IT business from US$ 2 Million to US$ 500 Million run rate, to his current venture Happiest Minds being well on the way to become the fastest to achieve US$ 100 Million, Mr Ashok Soota is widely recognized as one of the most successful pioneering leaders of the Indian Industry. He is the founding chairman of Mindtree. He was also very closely associated with Late. Mr V.G. Siddhartha (Founder, CCD) in past years. He will be talking about his journey and many known-unknown facts about V.G. Siddhartha sir.",
+    id: ""
+  },
+  {
+    name: "Sachin Sharma",
+    pic: "images/speakers/present/sachinSharma.jpg",
+    about: "Townscript was started with keeping a simple mission in mind, making online event registrations and ticketing an easy and awesome experience for event organizers and bridging the gap between organizers and enthusiasts. Since it was founded, it has associated itself with over 136000+ events in 6770+ cities across the world. E-Summit '19 is honoured to invite the founder of Townscript and IITK Alumni, Mr Sachin Sharma.",
+    id: ""
+  },
+  {
+    name: "Rajan Singh",
+    pic: "images/speakers/present/rajanSingh.jpg",
+    about: "Mr. Rajan Singh, an IIT Kanpur and Wharton MBA graduate turned IPS officer turned entrepreneur, who dreams of teaching science to lakhs of children across Tier II and Tier III cities. Having previously worked with McKinsey and Co. and New Silk Route Private Equity, he went on to found CourseBrew and ConceptOwl. ConceptOwl is an EdTech startup which is democratizing science education in rural India. He has been able to convert ConceptOwl in India's largest low-cost coaching chain.",
+    id: ""
+  },
+  {
+    name: "Prakash Sangam",
+    pic: "images/speakers/present/prakashSangam.jpg",
+    about: "Redbus has now become the world's largest online ticketing platform, catering to over 17 million customers globally. E-Summit 2019 invites Mr. Prakash Sangam, the CEO of Redbus. Having previously worked with InfoEdge, Airtel, and Unilever, Mr. Sangam is best known for leading Shiksha.com from almost scratch to a cash neutral business with a healthy topline in a span of 5 years.",
+    id: ""
+  },
+  {
+    name: "Ankit Aggarwal",
+    pic: "images/speakers/present/ankitAgarwal.jpg",
+    about: "Whether it is about enhancing your brand visibility, brand engagement or brand equity across campuses in India in the form of competitions, we all have come across Dare2Compete. Inviting Founder CEO of Dare2Compete Mr Ankit Aggarwal for Entrepreneurship Summit 2019. ",
+    id: ""
+  },
+  {
+    name: "Vivek Prakash",
+    pic: "images/speakers/present/vivekPrakash.jpeg",
+    about: "This E-Summit’19, Entrepreneurship Cell presents to you our first speaker Mr. Vivek Prakash, Co-Founder of HackerEarth. He is a graduate of IIT Roorkee where he majored in Computer Science and Information Technology. HackerEarth provides enterprise software solutions that help organizations in their innovation management and talent assessment endeavours. HackerEarth Recruit is a talent assessment platform that helps in efficient technical talent screening allowing organizations to build strong, proficient teams.",
+    id: ""
+  },
+  {
+    name: "Abhinay Chaudhary",
+    pic: "images/speakers/present/abhinayc.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Balaji Viswanathan",
+    pic: "images/speakers/present/balajivishv.png",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Gaurav Agarwal",
+    pic: "images/speakers/present/gauravAgarwal.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Lalit Jalan",
+    pic: "images/speakers/present/lalitJalan.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Suchi Mukherjee",
+    pic: "images/speakers/present/suchiMukherjee.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Sushanto Mitra",
+    pic: "images/speakers/present/.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Taranjeet",
+    pic: "images/speakers/present/.jpg",
+    about: "",
+    id: ""
+  },
+);
+
+
+for (var i = 0; i < arrPresent.length; i++) {
+  arrPresent[i].id = "s" + i.toString();
+  addspeakerNew(i);
+}
+
+//function will add a speaker by using
+// the data from the Xth position of the array
+function addspeakerNew(x) {
+  //creates an model element to be appended to the m_content class=============================
+
+  // The first word in the name of the variables tells
+  // about the type of element
+  // and the numbers after these tells us about the
+  // position with respect to the parent element
+  var div1 = document.createElement("div");
+  div1.classList.add("md-modal");
+
+  //can change this md-effect-8 class if want an different effect
+  div1.classList.add("md-effect-8");
+  div1.setAttribute("id", arrPresent[x].id);
+  var div11 = document.createElement("div");
+  div11.classList.add("md-content");
+  var div111 = document.createElement("div");
+  div111.classList.add("md-box-wrapper");
+  var div112 = document.createElement("div");
+  div112.classList.add("md-close-wrapper");
+  var button1121 = document.createElement("button");
+  button1121.classList.add("md-close");
+  button1121.innerText = "Close";
+  var div1111 = document.createElement("div");
+  div1111.classList.add("md-pic-wrapper");
+  var div1112 = document.createElement("div");
+  div1112.classList.add("md-disc");
+  div1112.innerHTML = arrPresent[x].about;
+  var img11111 = document.createElement("img");
+  img11111.setAttribute("src", arrPresent[x].pic);
+  var h111112 = document.createElement("h2");
+  h111112.innerText = arrPresent[x].name;
+  div1111.appendChild(img11111);
+  div1111.appendChild(h111112);
+  div111.appendChild(div1111);
+  div111.appendChild(div1112);
+  div112.appendChild(button1121);
+  div11.appendChild(div111);
+  div11.appendChild(div112);
+  div1.appendChild(div11);
+  m_contents_present.appendChild(div1);
+  //-------------------------------------------------------------------
+
+  //Creates a new row if previous row is completely filled
+  if (x % 4 == 0) {
+    var row = document.createElement("div");
+    row.classList.add("row");
+    var bgrid = document.createElement("div");
+    bgrid.classList.add("bgrid-fourth");
+    bgrid.classList.add("s-bgrid-third");
+    bgrid.classList.add("tab-bgrid-half");
+    bgrid.classList.add("mob-bgrid-whole");
+    bgrid.classList.add("group");
+    //adds a pseudo class 'row-detect' to detect row
+    bgrid.classList.add("row-detect-present");
+    row.appendChild(bgrid);
+    section_present.appendChild(row);
+  }
+  //============================================================
+
+  // Creates an element to be appended to the row
+  var bid = "b" + arrPresent[x].id;
+  var link = "javascript:run_model('" + arrPresent[x].id + "','" + bid + "')";
+  var ddiv1 = document.createElement("div");
+  ddiv1.classList.add("bgrid");
+  ddiv1.classList.add("member");
+  var da11 = document.createElement("a");
+  da11.setAttribute("id", bid);
+  da11.setAttribute("href", link);
+  var ddiv111 = document.createElement("div");
+  ddiv111.classList.add("speaker-pic-wrapper");
+  var dimg1111 = document.createElement("img");
+  dimg1111.setAttribute("src", arrPresent[x].pic);
+  dimg1111.classList.add("speaker-pic");
+  var ddiv112 = document.createElement("div");
+  ddiv112.classList.add("speaker-name");
+  var dh21121 = document.createElement("h2");
+  dh21121.innerText = arrPresent[x].name;
+  ddiv111.appendChild(dimg1111);
+  ddiv112.appendChild(dh21121);
+  da11.appendChild(ddiv111);
+  da11.appendChild(ddiv112);
+  ddiv1.appendChild(da11);
+
+  //Detect The last row by the "row-detect" class
+  //and adds the created element
+  var sbgrid = document.getElementsByClassName("row-detect-present");
   var num = sbgrid.length - 1;
   sbgrid[num].appendChild(ddiv1);
 }
