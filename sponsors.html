@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
@@ -10,8 +12,9 @@
     <!--- basic page needs
    ================================================== -->
     <meta charset="utf-8">
-    <title>eSummit'18</title>
-    <meta name="description" content="Website for Entrepreneurial Summit 2018 organised by ECell, IIT Kanpur. E-Summit, IITK.">
+    <title>Sponsors | E-Summit 2019 </title>
+    <meta name="description"
+        content="Website for Entrepreneurial Summit 2018 organised by ECell, IIT Kanpur. E-Summit, IITK.">
     <meta name="author" content="ECell">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
@@ -25,13 +28,28 @@
    ================================================== -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.min.css">
-    <link rel="stylesheet" href="css/main.css?ver=2.4">
+    <link rel="stylesheet" href="css/main.css?ver=2.3">
     <link rel="stylesheet" href="css/skrolr.css">
     <link rel="stylesheet" href="css/font-awesome/css/all.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+    <!---Open Graph metas for social media=======================================-->
+    <meta property="og:image" content="images/social_image.jpg" />
+    <meta property="og:title" content="E-Summit 2019 | E-Cell IITK" />
+    <meta property="og:url" content="https://www.ecelliitk.org/esummit" />
+    <meta property="og:description"
+        content="E-Summit is the annual flagship event of Entrepreneurship Cell IIT Kanpur, a networking hub for corporates, professionals, and budding entrepreneurs from all across the nation" />
+
+    <meta property="twitter:description"
+        content="E-Summit is the annual flagship event of Entrepreneurship Cell IIT Kanpur, a networking hub for corporates, professionals, and budding entrepreneurs from all across the nation" />
+    <meta name="twitter:image" content="images/social_image.jpg" />
+    <meta name="twitter:title" content="E-Summit 2019 | E-Cell IITK" />
+    <meta property="twitter:url" content="https://www.ecelliitk.org/esummit" />
 
     <!-- script
    ================================================== -->
     <script src="js/modernizr.js"></script>
+
 
     <!-- favicons
     ================================================== -->
@@ -42,7 +60,7 @@
 <body>
 
     <!-- header
-   ================================================== -->
+================================================== -->
     <header id="main-header">
 
         <div class="row">
@@ -64,20 +82,17 @@
                     <li>
                         <a class="smoothscroll" href="index.html#hero">Home.</a>
                     </li>
-                    <li class="current">
+                    <li>
                         <a class="smoothscroll" href="index.html#portfolio">Events.</a>
                     </li>
                     <li class="current">
-                        <a class="" target="_blank" href="schedule.pdf">Schedule.</a>
+                        <a class="smoothscroll" href="#">Speakers.</a>
                     </li>
-                    <li>
-                        <a class="smoothscroll" href="index.html#speakers">Speakers.</a>
-                    </li>
-                    <li>
+                    <!-- <li>
                         <a class="smoothscroll" href="index.html#sponsors">Sponsors.</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a class="smoothscroll" href="index.html#about">Team.</a>
+                        <a class="smoothscroll" href="register.html">Register.</a>
                     </li>
                 </ul>
                 <!-- end #nav -->
@@ -170,10 +185,10 @@
                         </a>
                     </li>
                     <li class="animate-intro">
-                    <a href="https://m.me/ecelliitk">
-                        <i class="fab fa-facebook-messenger" style="font-size: 1.15em"></i>
-                    </a>
-                </li>
+                        <a href="https://m.me/ecelliitk">
+                            <i class="fab fa-facebook-messenger" style="font-size: 1.15em"></i>
+                        </a>
+                    </li>
                     <li class="animate-intro">
                         <a href="https://www.linkedin.com/company/entrepreneurship-cell-iit-kanpur/">
                             <i class="fab fa-linkedin" style="font-size: 1.15em"></i>
@@ -222,7 +237,33 @@
     <!-- end footer -->
 
     <div id="preloader">
-        <div id="loader"></div>
+        <div id="loader">
+            <svg viewBox="0 0 960 300">
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="80%">MYRIAD OF </text>
+                </symbol>
+                <g class="g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+            </svg>
+            <div class="spacer"></div>
+            <svg viewBox="0 0 960 300">
+                <symbol id="s-text-2">
+                    <text text-anchor="middle" x="50%" y="80%">MAVERICKS</text>
+                </symbol>
+                <g class="g-ants">
+                    <use xlink:href="#s-text-2" class="text-copy"></use>
+                    <use xlink:href="#s-text-2" class="text-copy"></use>
+                    <use xlink:href="#s-text-2" class="text-copy"></use>
+                    <use xlink:href="#s-text-2" class="text-copy"></use>
+                    <use xlink:href="#s-text-2" class="text-copy"></use>
+                </g>
+            </svg>
+        </div>
     </div>
 
     <!-- Java Script
@@ -237,9 +278,10 @@
     <script src="js/jquery.placeholder.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <!-- <script src="js/skrolr.es6.min.js"></script> -->
-    <script src="js/spons-main.js?ver=1.3"></script>
-
+    <script src="js/modal.js"></script>
+    <script src="js/main-tiny.js?ver=1.2"></script>
+    <script src="js/speakers-main.js"></script>
+    <script src="js/sponsors-main.js"></script>
 </body>
 
 </html>

@@ -318,10 +318,21 @@ var m_contents_present = document.getElementById("model_contents_present");
 // it will automatically generate it
 arrPresent.push(
   {
-    name: "Priyanka Kanwar",
-    pic: "images/speakers/present/Priyanka-Kanwar.jpg",
-    about:
-      "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
+    name: "Ashok Soota",
+    pic: "images/speakers/present/ashokSoota.jpg",
+    about: "From leading the growth of WIPRO's IT business from US$ 2 Million to US$ 500 Million run rate, to his current venture Happiest Minds being well on the way to become the fastest to achieve US$ 100 Million, Mr Ashok Soota is widely recognized as one of the most successful pioneering leaders of the Indian Industry. He is the founding chairman of Mindtree. He was also very closely associated with Late. Mr V.G. Siddhartha (Founder, CCD) in past years. He will be talking about his journey and many known-unknown facts about V.G. Siddhartha sir.",
+    id: ""
+  },
+  {
+    name: "Lalit Jalan",
+    pic: "images/speakers/present/lalitJalan.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Abhinay Chaudhary",
+    pic: "images/speakers/present/abhinayc.jpg",
+    about: "",
     id: ""
   },
   {
@@ -332,11 +343,14 @@ arrPresent.push(
     id: ""
   },
   {
-    name: "Ashok Soota",
-    pic: "images/speakers/present/ashokSoota.jpg",
-    about: "From leading the growth of WIPRO's IT business from US$ 2 Million to US$ 500 Million run rate, to his current venture Happiest Minds being well on the way to become the fastest to achieve US$ 100 Million, Mr Ashok Soota is widely recognized as one of the most successful pioneering leaders of the Indian Industry. He is the founding chairman of Mindtree. He was also very closely associated with Late. Mr V.G. Siddhartha (Founder, CCD) in past years. He will be talking about his journey and many known-unknown facts about V.G. Siddhartha sir.",
+    name: "Priyanka Kanwar",
+    pic: "images/speakers/present/Priyanka-Kanwar.jpg",
+    about:
+      "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
     id: ""
   },
+
+
   {
     name: "Sachin Sharma",
     pic: "images/speakers/present/sachinSharma.jpg",
@@ -367,12 +381,7 @@ arrPresent.push(
     about: "This E-Summit’19, Entrepreneurship Cell presents to you our first speaker Mr. Vivek Prakash, Co-Founder of HackerEarth. He is a graduate of IIT Roorkee where he majored in Computer Science and Information Technology. HackerEarth provides enterprise software solutions that help organizations in their innovation management and talent assessment endeavours. HackerEarth Recruit is a talent assessment platform that helps in efficient technical talent screening allowing organizations to build strong, proficient teams.",
     id: ""
   },
-  {
-    name: "Abhinay Chaudhary",
-    pic: "images/speakers/present/abhinayc.jpg",
-    about: "",
-    id: ""
-  },
+
   {
     name: "Balaji Viswanathan",
     pic: "images/speakers/present/balajivishv.png",
@@ -382,15 +391,10 @@ arrPresent.push(
   {
     name: "Gaurav Agarwal",
     pic: "images/speakers/present/gauravAgarwal.jpg",
-    about: "",
+    about: "He is an IIT Kanpur alumnus who recently founded OKCredit in 2017. OkCredit is a mobile based solution for small business owners and their customers to enable recording of credit/payment transactions digitally all across the country.    ",
     id: ""
   },
-  {
-    name: "Lalit Jalan",
-    pic: "images/speakers/present/lalitJalan.jpg",
-    about: "",
-    id: ""
-  },
+
   {
     name: "Suchi Mukherjee",
     pic: "images/speakers/present/suchiMukherjee.jpg",
@@ -399,13 +403,13 @@ arrPresent.push(
   },
   {
     name: "Sushanto Mitra",
-    pic: "images/speakers/present/.jpg",
-    about: "",
+    pic: "images/speakers/present/sushantoMitra.jpg",
+    about: "He is an alumnus of St. Stephens College and Founder & CEO of Lead Angels. The aim of the company is improving early stage investment outcomes. The team accomplishes this by providing professional assistance to investor-members in company evaluation and the portfolio companies in their operations. ",
     id: ""
   },
   {
     name: "Taranjeet",
-    pic: "images/speakers/present/.jpg",
+    pic: "images/speakers/present/taranjeet.jpg",
     about: "",
     id: ""
   },
@@ -413,7 +417,7 @@ arrPresent.push(
 
 
 for (var i = 0; i < arrPresent.length; i++) {
-  arrPresent[i].id = "s" + i.toString();
+  arrPresent[i].id = "sp" + i.toString();
   addspeakerNew(i);
 }
 
