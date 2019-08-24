@@ -426,7 +426,9 @@ img.pull-left {
 	100% {stroke-dashoffset: -35%;}
 }
 
-
+.t-yellow {
+    color: #FDB731 !important;
+}
 /*
 /* 04. =forms
 /* =================================================================== */
