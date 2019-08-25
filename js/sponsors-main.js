@@ -138,7 +138,7 @@ spons.push(
     //     url: "",
     //     cat: "",
     //     id: ""
-    // }, 
+    // },
     , {
         name: "OmniBulls",
         pic: "images/sponsors/2019/omnibulls.jpg",
@@ -215,31 +215,31 @@ spons.push(
         name: "Global Student Entrepreneur Awards",
         pic: "images/sponsors/2019/eogsea.jpg",
         cat: "",
-        url: "",
+        url: "https://gsea.org/",
         id: ""
     }, {
         name: "IMS",
         pic: "images/sponsors/2019/ims.png",
         cat: "",
-        url: "",
+        url: "https://www.imsindia.com/",
         id: ""
     }, {
         name: "LIC",
         pic: "images/sponsors/2019/lic.png",
-        cat: "",
-        url: "",
+        cat: "Insurance Partner",
+        url: "https://www.licindia.in/",
         id: ""
     }, {
         name: "The Souled Store",
         pic: "images/sponsors/2019/souled.png",
         cat: "",
-        url: "",
+        url: "https://www.thesouledstore.com/",
         id: ""
     }, {
         name: "Zebronics",
-        cat: "",
+        cat: "Internet Connectivity Partner",
         pic: "images/sponsors/2019/zebronics.png",
-        url: "",
+        url: "https://zebronics.com/",
         id: ""
     },
 
