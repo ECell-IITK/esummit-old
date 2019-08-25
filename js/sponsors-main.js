@@ -12,7 +12,7 @@ spons.push(
     {
         name: "Department of Service and Technology, Govt. of India",
         pic: "images/sponsors/2019/dst.png",
-        cat: "Title Sponsor",
+        cat: "",
         url: "http://www.dst.gov.in",
         id: ""
     }, {
