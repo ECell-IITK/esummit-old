@@ -174,10 +174,10 @@ spons.push(
         id: ""
     },
     {
-        name: "sk infoech",
-        pic: "images/sponsors/2019/ski.png",
+        name: "Asti Infotech",
+        pic: "images/sponsors/2019/astiInfo.jpeg",
+        url: "https://www.astiinfotech.com/",
         cat: "Gold Partner",
-        url: "http://www.shikshainfotech.com/",
         id: ""
     },
     {
@@ -209,18 +209,6 @@ spons.push(
         pic: "images/sponsors/2019/amarujjala.jpg",
         cat: "Offline Media Partner",
         url: "https://www.amarujala.com/",
-        id: ""
-    },
-
-
-
-
-
-    {
-        name: "Asti Infotech",
-        pic: "images/sponsors/2019/astiInfo.jpeg",
-        url: "",
-        cat: "",
         id: ""
     },
     {
