@@ -224,6 +224,12 @@ spons.push(
         url: "https://www.imsindia.com/",
         id: ""
     }, {
+        name: "Silicon India",
+        pic: "images/sponsors/2019/siliconindia.png",
+        cat: "",
+        url: "https://www.siliconindia.com/",
+        id: ""
+    }, {
         name: "LIC",
         pic: "images/sponsors/2019/lic.png",
         cat: "Insurance Partner",
