@@ -195,7 +195,7 @@ spons.push(
     }, {
         name: "Blogadda",
         pic: "images/sponsors/2019/blogadda.jpg",
-        cat: "Online Blog Partner",
+        cat: "Blogger Outreach Partner",
         url: "https://www.blogadda.com/",
         id: ""
     }, {
