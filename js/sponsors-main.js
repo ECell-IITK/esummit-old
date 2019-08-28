@@ -181,16 +181,17 @@ spons.push(
         id: ""
     },
     {
+        name: "Inc42",
+        pic: "images/sponsors/2019/inc42.png",
+        cat: "Media Partner",
+        url: "https://inc42.com/",
+        id: ""
+    },
+    {
         name: "Your Story",
         pic: "images/sponsors/2019/yourStory.png",
         cat: "Online Media Partner",
         url: "https://yourstory.com/",
-        id: ""
-    }, {
-        name: "Inc42",
-        pic: "images/sponsors/2019/inc42.png",
-        cat: "Online Media Partner",
-        url: "https://inc42.com/",
         id: ""
     }, {
         name: "Blogadda",
