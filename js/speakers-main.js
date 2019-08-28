@@ -343,9 +343,9 @@ arrPresent.push(
     id: ""
   },
   {
-    name: "Abhinay Chaudhary",
-    pic: "images/speakers/present/abhinayc.jpg",
-    about: "",
+    name: "Utkarsh B",
+    pic: "images/speakers/present/uttkarsh.jpg",
+    about: "Driving architectural blueprints and coherence across diverse platforms in Flipkart through multiple generations of their evolution. Leveraging technology to solve for scale, resilience, business continuity and disaster recovery. Extensive experience (18+ years) in building platforms across a wide spectrum of technical and functional problem domains",
     id: ""
   },
   {
@@ -404,15 +404,7 @@ arrPresent.push(
     pic: "images/speakers/present/vivekPrakash.jpeg",
     about: "This E-Summit’19, Entrepreneurship Cell presents to you our first speaker Mr. Vivek Prakash, Co-Founder of HackerEarth. He is a graduate of IIT Roorkee where he majored in Computer Science and Information Technology. HackerEarth provides enterprise software solutions that help organizations in their innovation management and talent assessment endeavours. HackerEarth Recruit is a talent assessment platform that helps in efficient technical talent screening allowing organizations to build strong, proficient teams.",
     id: ""
-  },
-
-
-  {
-    name: "Suchi Mukherjee",
-    pic: "images/speakers/present/suchiMukherjee.jpg",
-    about: "",
-    id: ""
-  },
+  }
 );
 
 
