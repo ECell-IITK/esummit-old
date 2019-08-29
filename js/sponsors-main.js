@@ -181,6 +181,13 @@ spons.push(
         id: ""
     },
     {
+        name: "bikaji",
+        pic: "images/sponsors/2019/bikaji.png",
+        cat: "Snacks Partner",
+        url: "https://www.bikaji.in/",
+        id: ""
+    },
+    {
         name: "Inc42",
         pic: "images/sponsors/2019/inc42.png",
         cat: "Media Partner",
@@ -198,12 +205,6 @@ spons.push(
         pic: "images/sponsors/2019/blogadda.jpg",
         cat: "Blogger Outreach Partner",
         url: "https://www.blogadda.com/",
-        id: ""
-    }, {
-        name: "DK",
-        pic: "images/sponsors/2019/dainik.jpg",
-        cat: "Offline Media Partner",
-        url: "https://www.jagran.com/",
         id: ""
     }, {
         name: "AU",
