@@ -318,15 +318,15 @@ var m_contents_present = document.getElementById("model_contents_present");
 // it will automatically generate it
 arrPresent.push(
   {
-    name: "Ashok Soota",
-    pic: "images/speakers/present/ashokSoota.jpg",
-    about: "From leading the growth of WIPRO's IT business from US$ 2 Million to US$ 500 Million run rate, to his current venture Happiest Minds being well on the way to become the fastest to achieve US$ 100 Million, Mr Ashok Soota is widely recognized as one of the most successful pioneering leaders of the Indian Industry. He is the founding chairman of Mindtree. He was also very closely associated with Late. Mr V.G. Siddhartha (Founder, CCD) in past years. He will be talking about his journey and many known-unknown facts about V.G. Siddhartha sir.",
-    id: ""
-  },
-  {
     name: "Lalit Jalan",
     pic: "images/speakers/present/lalitJalan.jpg",
     about: "Lalit Jalan is the Advisor & former Chief Executive Officer of Reliance Infrastructure, part of the Reliance Anil Dhirubhai Ambani Group (ADAG), one of India's largest corporate houses. He is the Chairman of BSES Rajdhani & BSES Yamuna and serves as Director in several companies including Reliance Defence Ltd, which is associated with Rafale deal between India & France. Apart from his major responsibilities in the Reliance group owned by Anil Ambani, he is also a Director of several other firms which are from his native town Kolkata and some bear his family name \"Jalan\" including Jalan Brothers Private Limited, Jalan Properties Private Limited, Jalan Infosystems Private Limited, Jalan Reality Private Limited, Data Ware Private Limited etc, which are not part of the Reliance Group or belonging to Anil Ambani. ",
+    id: ""
+  },
+  {
+    name: "Ashok Soota",
+    pic: "images/speakers/present/ashokSoota.jpg",
+    about: "From leading the growth of WIPRO's IT business from US$ 2 Million to US$ 500 Million run rate, to his current venture Happiest Minds being well on the way to become the fastest to achieve US$ 100 Million, Mr Ashok Soota is widely recognized as one of the most successful pioneering leaders of the Indian Industry. He is the founding chairman of Mindtree. He was also very closely associated with Late. Mr V.G. Siddhartha (Founder, CCD) in past years. He will be talking about his journey and many known-unknown facts about V.G. Siddhartha sir.",
     id: ""
   },
   {
@@ -346,6 +346,12 @@ arrPresent.push(
     name: "Utkarsh B",
     pic: "images/speakers/present/uttkarsh.jpg",
     about: "Driving architectural blueprints and coherence across diverse platforms in Flipkart through multiple generations of their evolution. Leveraging technology to solve for scale, resilience, business continuity and disaster recovery. Extensive experience (18+ years) in building platforms across a wide spectrum of technical and functional problem domains",
+    id: ""
+  },
+  {
+    name: "Sushanto Mitra",
+    pic: "images/speakers/present/sushantoMitra.jpg",
+    about: "He is an alumnus of St. Stephens College and Founder & CEO of Lead Angels. The aim of the company is improving early stage investment outcomes. The team accomplishes this by providing professional assistance to investor-members in company evaluation and the portfolio companies in their operations. ",
     id: ""
   },
   {
@@ -377,13 +383,6 @@ arrPresent.push(
     pic: "images/speakers/present/Priyanka-Kanwar.jpg",
     about:
       "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
-    id: ""
-  },
-
-  {
-    name: "Sushanto Mitra",
-    pic: "images/speakers/present/sushantoMitra.jpg",
-    about: "He is an alumnus of St. Stephens College and Founder & CEO of Lead Angels. The aim of the company is improving early stage investment outcomes. The team accomplishes this by providing professional assistance to investor-members in company evaluation and the portfolio companies in their operations. ",
     id: ""
   },
   {
