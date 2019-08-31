@@ -249,7 +249,13 @@ spons.push(
         pic: "images/sponsors/2019/zebronics.png",
         url: "https://zebronics.com/",
         id: ""
-    },
+    },{
+        name: "Ambition",
+        cat: "Education Partner",
+        pic: "images/sponsors/2019/ambition.png",
+        url: "",
+        id: ""
+    }
 
 );
 //Assign id to each element of the speaker sponsay=> s0, s1, s2 etc
