@@ -188,6 +188,13 @@ spons.push(
         id: ""
     },
     {
+        name: "malwa",
+        pic: "images/sponsors/2019/malwa.png",
+        cat: "Snacks Partner",
+        url: "https://www.thetasteofmalwa.com/",
+        id: ""
+    },
+    {
         name: "Inc42",
         pic: "images/sponsors/2019/inc42.png",
         cat: "Media Partner",
