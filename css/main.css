@@ -1015,7 +1015,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-    background-image: url(/images/back-image.svg);
+    background-image: url("../images/backimage.svg");
     /* background: rgba(0, 0, 0, 0.5); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
