@@ -983,6 +983,22 @@ ul#nav li.current a:after {
     .no-js #nav-wrap:target ul#nav {
         display: block;
     }
+
+    a.t-yellow {
+        padding: 12px 0 12px 0 !important;
+        position:absolute;
+        left:0;
+        font-size: 13px;
+        text-transform: uppercase;
+        /* text-align: center; */
+        background: none;
+        font-family: "raleway-heavy", sans-serif;
+    }
+
+    li.t-yellow {
+        padding:6px 0 6px 0 !important;
+    }
+    
 }
 
 /* make sure the menu is visible on larger screens
