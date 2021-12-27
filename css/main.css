@@ -25,7 +25,7 @@
 /* =================================================================== */
 
 @import url("fonts.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:600");
 /* @import url("font-awesome/css/font-awesome.min.css"); */
 
 /** 
@@ -427,8 +427,22 @@ img.pull-left {
 }
 
 .t-yellow {
-    color: #FDB731 !important;
+    color: white;
+    padding: 0 25px 0 25px !important;
+    border-radius:4px;
+    position:absolute;
+    font-size: 15px;
+    text-transform: none;
+    left:60%;
+    /* text-align: center; */
+    background: #FF2929;
+    font-family: "Montserrat", sans-serif;
 }
+
+li.t-yellow {
+    background:none;
+}
+
 /*
 /* 04. =forms
 /* =================================================================== */
@@ -651,6 +665,7 @@ header {
     -webkit-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    background: #161616;
 }
 
 header.opaque {
@@ -661,7 +676,7 @@ header.opaque {
 /* header logo */
 
 header .logo {
-    background: #fdc501;
+    /* background: #fdc501; */
     float: left;
     width: auto;
     margin-left: 15px;
@@ -680,10 +695,10 @@ header .logo a {
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
-    width: 114px;
+    width: 154px;
     height: 66px;
-    background: url("../images/esummit_logo_black.png") no-repeat center;
-    background-size: 100px 48px;
+    background: url("../images/logoW@2x.png") no-repeat center;
+    background-size: 150px 50px;
 }
 
 /* header social */
@@ -774,6 +789,7 @@ ul#nav {
 
 ul#nav li {
     position: relative;
+    left:10%;
     list-style: none;
     display: inline-block;
     height: 66px;
@@ -806,7 +822,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: #fdc501;
+    color: #FF2929;
 }
 
 ul#nav li.current a:after {
@@ -967,6 +983,22 @@ ul#nav li.current a:after {
     .no-js #nav-wrap:target ul#nav {
         display: block;
     }
+
+    a.t-yellow {
+        padding: 12px 0 12px 0 !important;
+        position:absolute;
+        left:0;
+        font-size: 13px;
+        text-transform: uppercase;
+        /* text-align: center; */
+        background: none;
+        font-family: "raleway-heavy", sans-serif;
+    }
+
+    li.t-yellow {
+        padding:6px 0 6px 0 !important;
+    }
+    
 }
 
 /* make sure the menu is visible on larger screens
@@ -983,8 +1015,8 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-    /* background: #0f1215 url(../images/astronaut-bg.jpg) no-repeat center; */
-    background: rgba(0, 0, 0, 0.5);
+    background-image: url("../images/backimage.svg");
+    /* background: rgba(0, 0, 0, 0.5); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1024,7 +1056,7 @@ ul#nav li.current a:after {
 }
 
 #hero-slider .slides .flex-caption {
-    margin: 0 35% 0 30px;
+    margin: 7% 35% 0 0;
 }
 
 #hero-slider .slides .flex-caption h1 {
@@ -1041,7 +1073,7 @@ ul#nav li.current a:after {
     zoom: 1;
 }
 
-#hero-slider .slides .flex-caption h1::after {
+/* #hero-slider .slides .flex-caption h1::after {
     display: block;
     background-color: #fdc501;
     width: 100px;
@@ -1050,7 +1082,7 @@ ul#nav li.current a:after {
     position: absolute;
     left: 0;
     bottom: 0;
-}
+} */
 
 #hero-slider .slides .flex-caption h3 {
     font: 18px/1.9 "merriweather-regular", sans-serif;
@@ -1069,6 +1101,24 @@ ul#nav li.current a:after {
 #hero-slider .slides .flex-caption h1 a {
     display: inline-block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.polygon {
+    display:block;
+    margin:auto;
+}
+
+.scroll {
+    font-family: "Montserrat", sans-serif;
+    color:white;
+    text-align: center;
+    display:block;
+    margin:auto;
+}
+
+.scroll-hero {
+    position: relative;
+    top:30%;
 }
 
 /* for oldIE - IE9 */
@@ -1256,7 +1306,7 @@ ul#nav li.current a:after {
 }
 
 #hero .flex-control-paging li a.flex-active {
-    background: #fdc501;
+    background: #FF2929;
     cursor: default;
 }
 
@@ -1274,21 +1324,22 @@ ul#nav li.current a:after {
 #hero #more {
     position: absolute;
     left: 50%;
-    bottom: -27px;
+    bottom: 25%;
     margin-left: 250px;
 }
 
 #hero #more a {
-    font: 12px/54px "raleway-heavy", sans-serif;
+    font: 20px/54px "Montserrat", sans-serif;
+    font-weight:600;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
     text-decoration: none;
     display: block;
     height: 54px;
     width: 200px;
     border-radius: 3px;
-    background: #e64e04;
+    background: #FF2929;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
     color: #ffffff;
     -moz-transition: all 0.4s ease-on-out;
@@ -2989,6 +3040,7 @@ footer .social-links li:first-child {
     height: 100%;
     z-index: 1;
     position: absolute;
+    bottom:10%;
 }
 
 .esummit-rotation {
@@ -3148,6 +3200,16 @@ footer .social-links li:first-child {
     }
 }
 
+@media only screen and (max-width: 1160px) {
+    .t-yellow {
+        position:absolute;
+        left:0;
+    }
+    .scroll-hero {
+        display:none;
+    }
+}
+
 @media only screen and (max-width: 1064px) {
     .esummit-image-container {
         width: 300px;
@@ -3157,9 +3219,22 @@ footer .social-links li:first-child {
         margin-top: 66px;
     }
 
+    .t-yellow {
+        padding: 0 5px 0 5px !important;
+    }
+
+    .esummit-bg {
+        position:relative;
+        top:10px;
+    }
+
     #hero .hero-content {
         padding-top: 0;
         margin-top: -4em;
+    }
+
+    #more {
+        display: none;
     }
 
     #hero {
