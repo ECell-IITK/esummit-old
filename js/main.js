@@ -80,18 +80,18 @@
         $(slider)
           .find(".flex-active-slide")
           .find("h1")
-          .addClass("animated fadeInDown show")
+          .addClass("animated fadeInLeft show")
           .next()
-          .addClass("animated fadeInUp show");
+          .addClass("animated fadeInLeft show");
         $(window).trigger("resize");
       },
       after: function (slider) {
         $(slider)
           .find(".flex-active-slide")
           .find("h1")
-          .addClass("animated fadeInDown show")
+          .addClass("animated fadeInLeft show")
           .next()
-          .addClass("animated fadeInUp show");
+          .addClass("animated fadeInLeft show");
       }
     });
 
