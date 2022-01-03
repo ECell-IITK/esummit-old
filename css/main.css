@@ -69,7 +69,7 @@ a:visited {
 
 a:hover,
 a:focus {
-    color: #fdc501;
+    color: #B11818;
 }
 
 /* Typography
@@ -604,7 +604,7 @@ hr {
 }
 
 .section-head h1 span {
-    color: #fdc501;
+    color: #FF2929;
     position: relative;
     left: 3px;
 }
@@ -615,7 +615,7 @@ hr {
 }
 
 .section-head:hover h1+hr {
-    border-color: #fdc501;
+    border-color: #FF2929;
     width: 120px;
     text-align: left;
 }
@@ -814,7 +814,9 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-    color: #fdc501;
+    color: #FF2929;
+    background-color: transparent !important;
+    border-bottom: 1px solid #FF2929;
 }
 
 ul#nav li a:active {
@@ -825,7 +827,7 @@ ul#nav li.current a {
     color: #FF2929;
 }
 
-ul#nav li.current a:after {
+/* ul#nav li.current a:after {
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -840,7 +842,7 @@ ul#nav li.current a:after {
     -webkit-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
+} */
 
 /* mobile navigation 
 --------------------------------------------------------------------- */
@@ -886,7 +888,7 @@ ul#nav li.current a:after {
         top: 50%;
         bottom: auto;
         left: auto;
-        background: #fdc501;
+        background: #FF2929;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
@@ -959,7 +961,7 @@ ul#nav li.current a:after {
 
     #nav-wrap ul#nav li.current>a {
         background: none;
-        color: #fdc501;
+        color: #FF2929;
     }
 
     #nav-wrap ul#nav li.current>a:after {
@@ -1118,7 +1120,7 @@ ul#nav li.current a:after {
 
 .scroll-hero {
     position: relative;
-    top:30%;
+    top:0;
 }
 
 /* for oldIE - IE9 */
@@ -1326,6 +1328,7 @@ ul#nav li.current a:after {
     left: 50%;
     bottom: 25%;
     margin-left: 250px;
+    z-index: 1;
 }
 
 #hero #more a {
@@ -1350,8 +1353,7 @@ ul#nav li.current a:after {
 }
 
 #hero #more a:hover {
-    background: #fdc501;
-    color: #000000;
+    background: #B11818;
 }
 
 #hero #more a i {
@@ -2171,7 +2173,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #testimonials {
-    background: #fd8a01;
+    background: #FF2929;
     padding-top: 90px;
     padding-bottom: 112px;
     position: relative;
@@ -2791,8 +2793,7 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-    background: #fdc501;
-    color: #000000;
+    background: #B11818;
 }
 
 #go-top a i {
@@ -2865,7 +2866,7 @@ footer .social-links li:first-child {
     text-align: center;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    color: #e4b101;
+    color: #FF2929;
 }
 
 #speakers .slider-wrapper>div {
@@ -3022,6 +3023,10 @@ footer .social-links li:first-child {
     margin: 30px auto;
 }
 
+.all-speakers a:hover {
+    background-color: #B11818;
+}
+
 .esummit-image-container {
     width: 400px;
     height: 400px;
@@ -3156,7 +3161,7 @@ footer .social-links li:first-child {
 
 .speaker-name h2 {
     margin: 0 0 0 0;
-    color: #e4b101;
+    color: #FF2929;
 }
 
 .speaker-name h3 {
@@ -3467,7 +3472,7 @@ svg {
 .light {
     fill-rule: evenodd;
     clip-rule: evenodd;
-    fill: #fdc501;
+    fill: #FF2929;
 }
 
 .marginHeader {
