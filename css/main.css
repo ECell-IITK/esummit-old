@@ -429,11 +429,12 @@ img.pull-left {
 .t-yellow {
     color: white;
     padding: 0 25px 0 25px !important;
+    margin-right: 30px;
     border-radius:4px;
     position:absolute;
     font-size: 15px;
-    text-transform: none;
-    left:60%;
+    text-transform: uppercase;
+    left:20%;
     /* text-align: center; */
     background: #FF2929;
     font-family: "Montserrat", sans-serif;
