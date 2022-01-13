@@ -318,90 +318,139 @@ var m_contents_present = document.getElementById("model_contents_present");
 // it will automatically generate it
 arrPresent.push(
   {
-    name: "Lalit Jalan",
-    pic: "images/speakers/present/lalitJalan.jpg",
-    about: "Lalit Jalan is the Advisor & former Chief Executive Officer of Reliance Infrastructure, part of the Reliance Anil Dhirubhai Ambani Group (ADAG), one of India's largest corporate houses. He is the Chairman of BSES Rajdhani & BSES Yamuna and serves as Director in several companies including Reliance Defence Ltd, which is associated with Rafale deal between India & France. Apart from his major responsibilities in the Reliance group owned by Anil Ambani, he is also a Director of several other firms which are from his native town Kolkata and some bear his family name \"Jalan\" including Jalan Brothers Private Limited, Jalan Properties Private Limited, Jalan Infosystems Private Limited, Jalan Reality Private Limited, Data Ware Private Limited etc, which are not part of the Reliance Group or belonging to Anil Ambani. ",
-    id: ""
-  },
-  {
-    name: "Ashok Soota",
-    pic: "images/speakers/present/ashokSoota.jpg",
-    about: "From leading the growth of WIPRO's IT business from US$ 2 Million to US$ 500 Million run rate, to his current venture Happiest Minds being well on the way to become the fastest to achieve US$ 100 Million, Mr Ashok Soota is widely recognized as one of the most successful pioneering leaders of the Indian Industry. He is the founding chairman of Mindtree. He was also very closely associated with Late. Mr V.G. Siddhartha (Founder, CCD) in past years. He will be talking about his journey and many known-unknown facts about V.G. Siddhartha sir.",
-    id: ""
-  },
-  {
-    name: "Balaji Viswanathan",
-    pic: "images/speakers/present/balajivishv.png",
-    about: "Balaji Vishwanathan is the CEO of Invento Robotics, ",
-    id: ""
-  },
-  {
-    name: "Amit Agarwal",
+    name: "Mr Amit Agarwal",
     pic: "images/speakers/present/amitAgarwal.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Mr Abhisht Arora",
+    pic: "images/speakers/images-speakers/abhisht.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Manpreet Bhuie",
+    pic: "images/speakers/images-speakers/manpreet.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Dev Khare",
+    pic: "images/speakers/images-speakers/dev-khare.jpg",
+    about:"",
+    id: ""
+  },
+  {
+    name: "Ninad Karpe",
+    pic: "images/speakers/images-speakers/ninad.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Anil Joshi",
+    pic: "images/speakers/images-speakers/anil-joshi.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Sandeep Singhal",
+    pic: "images/speakers/images-speakers/sandeep-singhal.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Ranjith Mukundan",
+    pic: "images/speakers/images-speakers/ranjith.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Vipin Pathak",
+    pic: "images/speakers/images-speakers/vipin-pathak.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Priya Prakash",
+    pic: "images/speakers/images-speakers/priya-prakash.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Tamanna Singh",
+    pic: "images/speakers/images-speakers/Tamanna Singh, Founder & CEO, UberLux.jpg",
     about:
-    "Being an entrepreneur is exhilarating. It is filled with doubt, excitement, insecurity, and a sense of achievement all at once. Mr Amit Agarwal, an alumnus of IIT Kanpur founded NoBroker, a C2C brokerage-free real estate marketplace in India, over three years ago. NoBroker business model is disruptive, tech-based, capital-efficient and designed to be globally scalable. He bootstrapped for a good time, worried about funds and raised three rounds of VC funding of $20 Mn. He developed a good understanding of the complicated organization and underlying financial processes. In one of his interview, he said ‘We entrepreneurs have done enough mistakes. It’s time to learn from each other.’",
+      "",
     id: ""
   },
   {
-    name: "Utkarsh B",
-    pic: "images/speakers/present/uttkarsh.jpg",
-    about: "Driving architectural blueprints and coherence across diverse platforms in Flipkart through multiple generations of their evolution. Leveraging technology to solve for scale, resilience, business continuity and disaster recovery. Extensive experience (18+ years) in building platforms across a wide spectrum of technical and functional problem domains",
-    id: ""
-  },
-  {
-    name: "Sushanto Mitra",
-    pic: "images/speakers/present/sushantoMitra.jpg",
-    about: "He is an alumnus of St. Stephens College and Founder & CEO of Lead Angels. The aim of the company is improving early stage investment outcomes. The team accomplishes this by providing professional assistance to investor-members in company evaluation and the portfolio companies in their operations. ",
-    id: ""
-  },
-  {
-    name: "Rajan Singh",
-    pic: "images/speakers/present/rajanSingh.jpg",
-    about: "Mr. Rajan Singh, an IIT Kanpur and Wharton MBA graduate turned IPS officer turned entrepreneur, who dreams of teaching science to lakhs of children across Tier II and Tier III cities. Having previously worked with McKinsey and Co. and New Silk Route Private Equity, he went on to found CourseBrew and ConceptOwl. ConceptOwl is an EdTech startup which is democratizing science education in rural India. He has been able to convert ConceptOwl in India's largest low-cost coaching chain.",
-    id: ""
-  },
-  {
-    name: "Prakash Sangam",
-    pic: "images/speakers/present/prakashSangam.jpg",
-    about: "Redbus has now become the world's largest online ticketing platform, catering to over 17 million customers globally. E-Summit 2019 invites Mr. Prakash Sangam, the CEO of Redbus. Having previously worked with InfoEdge, Airtel, and Unilever, Mr. Sangam is best known for leading Shiksha.com from almost scratch to a cash neutral business with a healthy topline in a span of 5 years.",
-    id: ""
-  },
-  {
-    name: "Ankit Aggarwal",
-    pic: "images/speakers/present/ankitAgarwal.jpg",
-    about: "Whether it is about enhancing your brand visibility, brand engagement or brand equity across campuses in India in the form of competitions, we all have come across Dare2Compete. Inviting Founder CEO of Dare2Compete Mr Ankit Aggarwal for Entrepreneurship Summit 2019. ",
-    id: ""
-  },
-  {
-    name: "Gaurav Agarwal",
-    pic: "images/speakers/present/gauravAgarwal.jpg",
-    about: "He is an IIT Kanpur alumnus who recently founded OKCredit in 2017. OkCredit is a mobile based solution for small business owners and their customers to enable recording of credit/payment transactions digitally all across the country.    ",
-    id: ""
-  },
-  {
-    name: "Priyanka Kanwar",
-    pic: "images/speakers/present/Priyanka-Kanwar.jpg",
-    about:
-      "Passionate about helping people from all backgrounds access modern finance, Ms Priyanka Kanwar founded Kite to empower businesses and their employees with innovative and low-cost payments, capital, and financial services. Launched in 2017, Kite’s platform has processed over USD 70 million in transactions and served 150,000 users from 1,200 cities, building financial identities with more than 6 million data points. The idea for Kite first came to Priyanka at age 17, while shooting a documentary film on the plight of microfinance borrowers in India and globally.Subsequently, at Yale, as Tobin Research Fellow at the Department of Economics, she continued conducting development research on the sustainable delivery of financial services in Honduras, Mexico, Uganda, Bangladesh, and India.",
-    id: ""
-  },
-  {
-    name: "Taranjeet",
-    pic: "images/speakers/present/taranjeet.jpg",
+    name: "Amar Nagaram",
+    pic: "images/speakers/images-speakers/amar-nagaram.jpg",
     about: "",
     id: ""
   },
 
   {
-    name: "Sachin Sharma",
-    pic: "images/speakers/present/sachinSharma.jpg",
-    about: "Townscript was started with keeping a simple mission in mind, making online event registrations and ticketing an easy and awesome experience for event organizers and bridging the gap between organizers and enthusiasts. Since it was founded, it has associated itself with over 136000+ events in 6770+ cities across the world. E-Summit '19 is honoured to invite the founder of Townscript and IITK Alumni, Mr Sachin Sharma.",
+    name: "Alok Bansal",
+    pic: "images/speakers/images-speakers/Alok-Bansal.jpg",
+    about: "",
     id: ""
   },
+
   {
-    name: "Vivek Prakash",
-    pic: "images/speakers/present/vivekPrakash.jpeg",
-    about: "This E-Summit’19, Entrepreneurship Cell presents to you our first speaker Mr. Vivek Prakash, Co-Founder of HackerEarth. He is a graduate of IIT Roorkee where he majored in Computer Science and Information Technology. HackerEarth provides enterprise software solutions that help organizations in their innovation management and talent assessment endeavours. HackerEarth Recruit is a talent assessment platform that helps in efficient technical talent screening allowing organizations to build strong, proficient teams.",
+    name: "Niranjan Gupta",
+    pic: "images/speakers/images-speakers/niranjan.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Harshil Karia",
+    pic: "images/speakers/images-speakers/Harshil Karia, Founder, Schbang.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Saket Modi",
+    pic: "images/speakers/images-speakers/Saket Modi, Founder & CEO, Lucideus.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Sandeep Jain",
+    pic: "images/speakers/images-speakers/Sandeep Jain, CEO, GFG.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Tapan Singhel",
+    pic: "images/speakers/images-speakers/Tapan-singhel.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Ashutosh Gupta",
+    pic: "images/speakers/images-speakers/ashutosh.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Suchishree Chatterjee",
+    pic: "images/speakers/images-speakers/Suchishree-Chatterjee-scaled.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Harishankaran",
+    pic: "images/speakers/images-speakers/Harishankaran, Founder, InterviewStreet(Hackerrank).jpg",
+    about: "",
     id: ""
   }
 );

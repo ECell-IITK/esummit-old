@@ -1402,6 +1402,11 @@ ul#nav li.current a {
 /* 08. =portfolio styles
 /* =================================================================== */
 
+#workshops-wrapper {
+    display:flex;
+    justify-content: space-around;
+}
+
 #portfolio,
 #workshops {
     padding: 60px 0;
@@ -1413,6 +1418,10 @@ ul#nav li.current a {
     /* min-height: 600px; */
     max-width: 960px;
     margin-top: 24px;
+}
+
+.visibility-hidden {
+    visibility: hidden;
 }
 
 /* media queries - portfolio */
@@ -1461,6 +1470,10 @@ ul#nav li.current a {
     #portfolio-wrapper .bgrid,
     #workshops-wrapper .bgrid {
         padding: 0px;
+    }
+
+    .visibility-hidden {
+        display: none;
     }
 }
 
