@@ -434,7 +434,7 @@ img.pull-left {
     position:absolute;
     font-size: 15px;
     text-transform: uppercase;
-    left:20%;
+    left:30%;
     /* text-align: center; */
     background: #FF2929;
     font-family: "Montserrat", sans-serif;
@@ -790,7 +790,7 @@ ul#nav {
 
 ul#nav li {
     position: relative;
-    left:10%;
+    left:4%;
     list-style: none;
     display: inline-block;
     height: 66px;
