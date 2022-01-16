@@ -1714,7 +1714,7 @@ ul#nav li.current a {
 }
 
 .popup-modal .link-box a:hover {
-    background: #fdc501;
+    background: #FF2929;
     color: #000000;
     border: none;
 }
@@ -2791,7 +2791,7 @@ footer .social-links li:first-child {
     height: 54px;
     width: 200px;
     margin-left: -100px;
-    background: #e64e04;
+    background: #FF2929;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
     color: #ffffff;
     text-align: center;
@@ -2891,6 +2891,8 @@ footer .social-links li:first-child {
     /* background: white; */
     display: flex;
 }
+
+.spons
 
 /*
 --------------------------------------------------------------------*/
@@ -3143,6 +3145,10 @@ footer .social-links li:first-child {
     margin: auto;
 }
 
+.sponsor-pic:hover {
+    opacity:0.5;
+}
+
 .sponsor-pic-wrapper{
     width: 100%;
     height: 80%;
@@ -3155,9 +3161,18 @@ footer .social-links li:first-child {
 }
 
 .spon-cat {
-    color: #fff;
+    color: rgb(37, 34, 34);
+    font-size: 18px;
+    font-family: "raleway-heavy", sans-serif;
     margin-top: 0px;
     margin-bottom: 15px;
+    position:relative;
+    top:-35px;
+    text-transform: uppercase;
+}
+
+.spon-cat:hover {
+    visibility: visible;
 }
 
 /**All speakers***************************************************/
@@ -3175,7 +3190,7 @@ footer .social-links li:first-child {
 
 .speaker-name h2 {
     margin: 0 0 0 0;
-    color: #FF2929;
+    color: white;
 }
 
 .speaker-name h3 {
@@ -3289,7 +3304,7 @@ footer .social-links li:first-child {
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #b08801;
+    background-color: #b41f1f;
 }
 
 .nav-pills>li {
@@ -3347,7 +3362,7 @@ footer .social-links li:first-child {
     overflow-x: hidden;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    background-color: #e4b101;
+    background-color: #FF2929;
 }
 
 .nodal-navbar>ul {

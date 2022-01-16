@@ -318,13 +318,25 @@ var m_contents_present = document.getElementById("model_contents_present");
 // it will automatically generate it
 arrPresent.push(
   {
-    name: "Mr Amit Agarwal",
+    name: "Srikanth Gopalakrishnan",
+    pic: "images/speakers/images-speakers/Srikanth Gopalakrishnan. CIO, Legal, HR and communications, Deutsche bank.png",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Manu Rekhi",
+    pic: "images/speakers/images-speakers/manu.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Amit Agarwal",
     pic: "images/speakers/present/amitAgarwal.jpg",
     about: "",
     id: ""
   },
   {
-    name: "Mr Abhisht Arora",
+    name: "Abhisht Arora",
     pic: "images/speakers/images-speakers/abhisht.jpg",
     about: "",
     id: ""
@@ -336,9 +348,9 @@ arrPresent.push(
     id: ""
   },
   {
-    name: "Dev Khare",
-    pic: "images/speakers/images-speakers/dev-khare.jpg",
-    about:"",
+    name: "Jay Vikram Bakshi",
+    pic: "images/speakers/images-speakers/jay-vikram.jpg",
+    about: "",
     id: ""
   },
   {
@@ -350,12 +362,6 @@ arrPresent.push(
   {
     name: "Anil Joshi",
     pic: "images/speakers/images-speakers/anil-joshi.jpg",
-    about: "",
-    id: ""
-  },
-  {
-    name: "Sandeep Singhal",
-    pic: "images/speakers/images-speakers/sandeep-singhal.jpg",
     about: "",
     id: ""
   },
@@ -406,13 +412,6 @@ arrPresent.push(
   },
 
   {
-    name: "Harshil Karia",
-    pic: "images/speakers/images-speakers/Harshil Karia, Founder, Schbang.jpg",
-    about: "",
-    id: ""
-  },
-
-  {
     name: "Saket Modi",
     pic: "images/speakers/images-speakers/Saket Modi, Founder & CEO, Lucideus.jpg",
     about: "",
@@ -434,6 +433,13 @@ arrPresent.push(
   },
 
   {
+    name: "Sanjay Mohan",
+    pic: "images/speakers/images-speakers/sanjay.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
     name: "Ashutosh Gupta",
     pic: "images/speakers/images-speakers/ashutosh.jpg",
     about: "",
@@ -448,8 +454,48 @@ arrPresent.push(
   },
 
   {
+    name: "Ruchi Deepak",
+    pic: "images/speakers/images-speakers/Ruchi-Deepak.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Rahul Garg",
+    pic: "images/speakers/images-speakers/rahul.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Mikhil Innani",
+    pic: "images/speakers/images-speakers/mikhil.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
+    name: "Vishal Chaudhary",
+    pic: "images/speakers/images-speakers/vishal.jpg",
+    about: "",
+    id: ""
+  },
+
+  {
     name: "Harishankaran",
     pic: "images/speakers/images-speakers/Harishankaran, Founder, InterviewStreet(Hackerrank).jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Murugavel Janakiraman",
+    pic: "images/speakers/images-speakers/murugavel.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Rajneesh Jain",
+    pic: "images/speakers/images-speakers/rajneesh.jpg",
     about: "",
     id: ""
   }
