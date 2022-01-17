@@ -1424,6 +1424,10 @@ ul#nav li.current a {
     visibility: hidden;
 }
 
+#Rules1 a {
+    color:#791414;
+}
+
 /* media queries - portfolio */
 
 @media only screen and (max-width: 1300px) {
