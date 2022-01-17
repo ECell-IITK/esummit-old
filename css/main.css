@@ -1402,10 +1402,10 @@ ul#nav li.current a {
 /* 08. =portfolio styles
 /* =================================================================== */
 
-#workshops-wrapper {
+/* #workshops-wrapper {
     display:flex;
     justify-content: space-around;
-}
+} */
 
 #portfolio,
 #workshops {
@@ -1424,6 +1424,10 @@ ul#nav li.current a {
     visibility: hidden;
 }
 
+.new-workshop {
+    position:relative;
+    top:-10px;
+}
 #Rules1 a {
     color:#791414;
 }
