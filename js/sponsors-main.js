@@ -11,10 +11,33 @@ var sponsors_gallery = document.getElementById("sponsors_gallery");
 spons.push(
         
     {
+        name: "Deutsche Bank",
+        pic: "images/sponsors/sponsor-img/deutsche.jpg",
+        cat: "Sponsored By",
+        url: "https://www.deutschebank.co.in/",
+        id: ""
+    },
+    {
         name: "Westbridge Capital",
         pic: "images/sponsors/sponsor-img/westbridge.png",
         cat: "Title Sponsor",
         url: "https://www.westbridgecap.com/",
+        id: ""
+    },
+    {
+        name: "Huddle Ventures",
+        pic: "images/sponsors/sponsor-img/huddle.jpg",
+        cat: "Upstart Partner",
+        url: "https://huddle.work/",
+        id: ""
+    },
+    
+    
+    {
+        name: "Sponsor Bull",
+        pic: "images/sponsors/sponsor-img/sponsor-bull.jpg",
+        cat: "Marketing Partner",
+        url: "https://www.linkedin.com/company/sponsorbull/",
         id: ""
     },
     {
@@ -24,17 +47,11 @@ spons.push(
         url: "https://www.binance.com/en",
         id: ""
     },
-    {
-        name: "Deutsche Bank",
-        pic: "images/sponsors/sponsor-img/deutsche.jpg",
-        cat: "Sponsored By",
-        url: "https://www.deutschebank.co.in/",
-        id: ""
-    },
+    
     {
         name: "Sponsor Bull",
         pic: "images/sponsors/sponsor-img/sponsor-bull.jpg",
-        cat: "Marketing Partner",
+        cat: "Outreach Partner",
         url: "https://www.linkedin.com/company/sponsorbull/",
         id: ""
     },
@@ -45,23 +62,10 @@ spons.push(
         url: "https://interviewbuddy.in/",
         id: ""
     },
-    {
-        name: "Sponsor Bull",
-        pic: "images/sponsors/sponsor-img/sponsor-bull.jpg",
-        cat: "Outreach Partner",
-        url: "https://www.linkedin.com/company/sponsorbull/",
-        id: ""
-    },
-    {
-        name: "Huddle Ventures",
-        pic: "images/sponsors/sponsor-img/westbridge.png",
-        cat: "Upstart Marketing Partner",
-        url: "https://huddle.work/",
-        id: ""
-    },
+    
     {
         name: "Wiley",
-        pic: "images/sponsors/sponsor-img/wiley.jpg",
+        pic: "images/sponsors/sponsor-img/wiley.png",
         cat: "",
         url: "https://www.wiley.com/en-us",
         id: ""
@@ -374,3 +378,4 @@ function addSponsor(index) {
 
     sponsors_gallery.appendChild(div);
 }
+

@@ -1402,10 +1402,10 @@ ul#nav li.current a {
 /* 08. =portfolio styles
 /* =================================================================== */
 
-#workshops-wrapper {
+/* #workshops-wrapper {
     display:flex;
     justify-content: space-around;
-}
+} */
 
 #portfolio,
 #workshops {
@@ -1422,6 +1422,14 @@ ul#nav li.current a {
 
 .visibility-hidden {
     visibility: hidden;
+}
+
+.new-workshop {
+    position:relative;
+    top:-10px;
+}
+#Rules1 a {
+    color:#791414;
 }
 
 /* media queries - portfolio */
@@ -1714,7 +1722,7 @@ ul#nav li.current a {
 }
 
 .popup-modal .link-box a:hover {
-    background: #fdc501;
+    background: #FF2929;
     color: #000000;
     border: none;
 }
@@ -2791,7 +2799,7 @@ footer .social-links li:first-child {
     height: 54px;
     width: 200px;
     margin-left: -100px;
-    background: #e64e04;
+    background: #FF2929;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
     color: #ffffff;
     text-align: center;
@@ -2891,6 +2899,8 @@ footer .social-links li:first-child {
     /* background: white; */
     display: flex;
 }
+
+.spons
 
 /*
 --------------------------------------------------------------------*/
@@ -3143,6 +3153,10 @@ footer .social-links li:first-child {
     margin: auto;
 }
 
+.sponsor-pic:hover {
+    opacity:0.5;
+}
+
 .sponsor-pic-wrapper{
     width: 100%;
     height: 80%;
@@ -3155,9 +3169,18 @@ footer .social-links li:first-child {
 }
 
 .spon-cat {
-    color: #fff;
+    color: rgb(37, 34, 34);
+    font-size: 18px;
+    font-family: "raleway-heavy", sans-serif;
     margin-top: 0px;
     margin-bottom: 15px;
+    position:relative;
+    top:-35px;
+    text-transform: uppercase;
+}
+
+.spon-cat:hover {
+    visibility: visible;
 }
 
 /**All speakers***************************************************/
@@ -3175,7 +3198,7 @@ footer .social-links li:first-child {
 
 .speaker-name h2 {
     margin: 0 0 0 0;
-    color: #FF2929;
+    color: white;
 }
 
 .speaker-name h3 {
@@ -3289,7 +3312,7 @@ footer .social-links li:first-child {
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #b08801;
+    background-color: #b41f1f;
 }
 
 .nav-pills>li {
@@ -3347,7 +3370,7 @@ footer .social-links li:first-child {
     overflow-x: hidden;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    background-color: #e4b101;
+    background-color: #FF2929;
 }
 
 .nodal-navbar>ul {
@@ -3527,3 +3550,56 @@ svg {
     background: url('../images/abstracts/ab5.png') #222;
     background-size: 300px 300px;
 }
+
+/* On-load modal */
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:900;
+    background-color:#26262c;
+    display:none;
+}  
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    width:440px;
+    height:850px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#boxes #dialog {
+    width:450px; 
+    height:auto;
+    padding: 10px 10px 10px 10px;
+    background-color:#ffffff;
+    font-size: 15pt;
+}
+  
+.agree:hover{
+    background-color: #D1D1D1;
+}
+.popupoption:hover{
+   background-color:#D1D1D1;
+   color: green;
+}
+.popupoption2:hover{
+   color: red;
+}
+
+@media only screen and (max-width: 864px) {
+    #boxes #dialog{
+        width:380px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #boxes #dialog{
+        width:250px;
+    }
+}
+
