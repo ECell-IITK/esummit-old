@@ -495,7 +495,7 @@ arrPresent.push(
   },
   {
     name: "Rajneesh Jain",
-    pic: "images/speakers/images-speakers/rajneesh.jpg",
+    pic: "images/speakers/images-speakers/Rajneesh.jpg",
     about: "",
     id: ""
   }
