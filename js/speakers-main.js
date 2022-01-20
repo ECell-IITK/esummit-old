@@ -370,6 +370,12 @@ arrPresent.push(
     about:
       "Author of Booming Brands and Booming Digital Stars",
     id: ""
+  },{
+    name: "Aman Dhall",
+    pic: "images/speakers/aman-dhall.jpg",
+    about:
+    "Aman Dhall is an Indian communications specialist, widely known for his role in building the insurtech brand, Policybazaar.com.The company has emerged as a go to digital platform for death, disease & disability products in India, and is currently the most valued insurtech entity in the world, after its recent listing on the Indian bourses.",
+    id: ""
   },
   {
     name: "Ranjith Mukundan",
