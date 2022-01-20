@@ -78,6 +78,12 @@ arr.push(
     about:
       "She started off as a print journalist at Business Today back in 2002 before embarking on a prolific television and online media career. She obtained her Bachelor’s degree in Media & Communications from the University of New South Wales, Sydney and completed a course in creative screenwriting at Columbia University. She joined NDTV Profit as a senior correspondent and anchored multiple shows like “Boss’ Days Out”. Using her experience of serving as a producer at CNBC TV18 in the past, she crafted “Gadget Guru”, one of the flagship shows of the network after being promoted to the post of Associate Producer of NDTV GOOD TIMES. After a couple of years at ET NOW, working as an anchor of primetime and morning stock market shows, she was awarded the post of Sr Anchor & Editor - New Economy at Bloomberg and took the organization to unimaginable heights. Apart from the shows focused on finance and general news, she spearheaded lifestyle shows like “Aspire” and evening talk shows like “The Date”. The self professed feminist couldn't just keep on working for the ‘man’, she left Bloomberg and founded AB Networks in Jan 2018 and plans to revolutionize online media",
     id: ""
+  },{
+    name: "Harsh Pamnani",
+    pic: "images/speakers/images-speakers/Harsh-Picture-RC-Fellowship.jpg",
+    about:
+      "Author of Booming Brands and Booming Digital Stars",
+    id: ""
   },
   //   {
   //     name: "Ankit Kawatra",
