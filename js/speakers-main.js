@@ -368,7 +368,7 @@ arrPresent.push(
     name: "Harsh Pamnani",
     pic: "images/speakers/images-speakers/Harsh-Picture-RC-Fellowship.jpg",
     about:
-      "Author of Booming Brands and Booming Digital Stars",
+      "Harsh is a storyteller by passion and a brand expert by profession. He curates real-world inspiring stories that help to establish a brand's distinct identity. An attractive identity makes a brand preferable in the market and drives growth.      Harsh has authored 3 books on brand building. His bestselling book series Booming Brands covering inspiring journeys of 22 new age 'Made in India' brands, is published by CNBC. It has been widely acclaimed by eminent academicians, Indian government leaders, entrepreneurs, and venture capitalists. His third book Booming Digital Stars, covering 11 inspiring journeys from 'India's Creator Economy,' has become a National Bestseller. He has also written over 80 articles for various business publications, including Forbes. ",
     id: ""
   },{
     name: "Aman Dhall",
