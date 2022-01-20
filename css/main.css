@@ -1121,7 +1121,7 @@ ul#nav li.current a {
 
 .scroll-hero {
     position: relative;
-    top:0;
+    top:70px;
 }
 
 /* for oldIE - IE9 */
@@ -1680,6 +1680,11 @@ ul#nav li.current a {
     line-height: 18px;
     margin-top: 1px;
 }
+
+.register-new {
+    background: #FF2929;
+}
+
 
 /* categories */
 
