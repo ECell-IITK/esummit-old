@@ -66,7 +66,7 @@ spons.push(
     {
         name: "Wiley",
         pic: "images/sponsors/sponsor-img/wiley.png",
-        cat: "",
+        cat: "Knowledge Partner",
         url: "https://www.wiley.com/en-us",
         id: ""
     },
@@ -80,10 +80,73 @@ spons.push(
     {
         name: "Zoho",
         pic: "images/sponsors/sponsor-img/zoho.jpg",
-        cat: "",
+        cat: "Workshop Partner",
         url: "https://www.zoho.com/",
         id: ""
     },
+    {
+        name: "iB Hubs",
+        pic: "images/sponsors/sponsor-img/ib-hubs.jpg",
+        cat: "OUtreach Partner",
+        url: "https://ibhubs.co/",
+        id: ""
+    },
+    {
+        name: "Dalal Street",
+        pic: "images/sponsors/sponsor-img/Dalal-Street.jpg",
+        cat: "Trading Partner",
+        url: "https://www.dsij.in/",
+        id: ""
+    },{
+        name: "Digita Raven",
+        pic: "images/sponsors/sponsor-img/Digital-raven.jpg",
+        cat: "Campaign Partner",
+        url: "https://www.digitalraven.in/",
+        id: ""
+    },{
+        name: "Startupcity India Magazine",
+        pic: "images/sponsors/sponsor-img/startup-city.jpg",
+        cat: "Media Partners",
+        url: "https://www.startupcityindia.com/",
+        id: ""
+    },{
+        name: "Tricycle",
+        pic: "images/sponsors/sponsor-img/tricycle.jpg",
+        cat: "Startup Partner",
+        url: "https://tricycle.co.in/",
+        id: ""
+    },{
+        name: "CEO Magazine",
+        pic: "images/sponsors/sponsor-img/ceo-magazine.jpg",
+        cat: "Media Partners",
+        url: "https://www.theceomagazine.com/",
+        id: ""
+    },{
+        name: "yourFirstad",
+        pic: "images/sponsors/sponsor-img/yourFirstad.jpg",
+        cat: "Events Partner",
+        url: "https://www.specialeinvest.com/",
+        id: ""
+    },{
+        name: "Speciale Invest",
+        pic: "images/sponsors/sponsor-img/speciale-invest.jpg",
+        cat: "Investing Partner",
+        url: "https://www.specialeinvest.com/",
+        id: ""
+    },{
+        name: "Aglasem",
+        pic: "images/sponsors/sponsor-img/aglasem.jpg",
+        cat: "Media Partners",
+        url: "https://aglasem.com/",
+        id: ""
+    },{
+        name: "Dainik Jagran",
+        pic: "images/sponsors/sponsor-img/dainik-jagran.jpg",
+        cat: "In Association with",
+        url: "https://www.jagran.com/",
+        id: ""
+    },
+    
     // {
     //     name: "Department of Service and Technology, Govt. of India",
     //     pic: "images/sponsors/2019/dst.png",
