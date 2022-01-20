@@ -314,25 +314,25 @@ var m_contents_present = document.getElementById("model_contents_present");
 // in the below array and add its
 //respective properties like name, pic, about, etc
 //(
-//and keep the element id as NULL
+//and keep the element id as NULLF
 // it will automatically generate it
 arrPresent.push(
   {
     name: "Srikanth Gopalakrishnan",
     pic: "images/speakers/images-speakers/Srikanth Gopalakrishnan. CIO, Legal, HR and communications, Deutsche bank.png",
-    about: "",
+    about: "Since joining Deutsche Bank in 2020 as CIO for HR, Legal and Communications, Srikanth has been involved in evolving the Workday footprint in HR. He has also been managing the Legal portfolio with the rollout of the new Document Management system for the bank. Srikanth has had a wealth of experience in the HR Technology domain with over 22 years in that space. He has been involved in large HR technology projects in the US. He has been building HR products for Peoplesoft, Oracle, SAP and Success Factors. He also has spent the last 5 years building products for manufacturing using IoT, Machine Learning and building Business networks at SAP for Industry 4.0.",
     id: ""
   },
   {
     name: "Manu Rekhi",
     pic: "images/speakers/images-speakers/manu.jpg",
-    about: "",
+    about: "\"Manu Rekhi, a Venture Investor, is the Partner & Managing Director at Inventus Capital Partners. He has worked across Product Management, General management, and marketing segmentation, and has served as a top-level executive at companies namely Myspace, Google, NewsCorp, 6waves Lolapps Inc & WineGlobe Inc. He's a Boston University graduate and did the Berkeley-Columbia Executive MBA program by HaaS school of business and Columbia Business School.\"",
     id: ""
   },
   {
     name: "Amit Agarwal",
     pic: "images/speakers/present/amitAgarwal.jpg",
-    about: "",
+    about: "A banking & finance veteran with over 15 years of experience in management consulting and strategy, Amit Kumar Agarwal is the Co-founder and CEO of NoBroker.com, the world’s largest peer-to-peer real estate portal. He is responsible for defining and guiding the overall vision and direction at NoBroker.com and spearheads the company’s corporate strategies. Amit is an alumnus of the Indian Institute of Technology, Kanpur, and IIM, Ahmedabad. He was associated with the Management Consulting division of PricewaterhouseCoopers’ Banking and Financial Services vertical. He worked with many leading Indian and foreign banks during his eight years at PwC, leading consulting teams and working directly with top CXOs on critical aspects such as formulating business strategy and enhancing on-ground profitability.",
     id: ""
   },
   {
@@ -344,70 +344,82 @@ arrPresent.push(
   {
     name: "Manpreet Bhuie",
     pic: "images/speakers/images-speakers/manpreet.jpg",
-    about: "",
+    about: "Since joining Deutsche Bank in 2020 as CIO for HR, Legal and Communications, Srikanth has been involved in evolving the Workday footprint in HR. He has also been managing the Legal portfolio with the rollout of the new Document Management system for the bank. Srikanth has had a wealth of experience in the HR Technology domain with over 22 years in that space. He has been involved in large HR technology projects in the US. He has been building HR products for Peoplesoft, Oracle, SAP and Success Factors. He also has spent the last 5 years building products for manufacturing using IoT, Machine Learning and building Business networks at SAP for Industry 4.0.",
     id: ""
   },
   {
     name: "Jay Vikram Bakshi",
     pic: "images/speakers/images-speakers/jay-vikram.jpg",
-    about: "",
+    about: "Jay is founder president of DIGIQOM SOLUTIONS (www.digiqom.com), a leading digital marketing and social media communications advocacy consulting firm, focused at enabling corporates, institutions, and governments across the world – communicate for results. A senior management professional with a track record of over 25 years in media, marketing, and corporate communications, Jay, in addition to spearheading innovation in Telecom, Software, and Brand creation, has been associated with sustainability and development organizations as the leader of Corporate Social Responsibility initiatives in every corporate he served in.",
     id: ""
   },
   {
     name: "Ninad Karpe",
     pic: "images/speakers/images-speakers/ninad.jpg",
-    about: "",
+    about: "Ninad Karpe is a Partner at 100X.VC – a VC firm, which invests in early stage start-ups and has invested in 70 startups so far. It aims to invest in 100 startups every year. Karpe was the MD & CEO of Aptech Ltd. for more than seven years, till 2016. He previously served CA Technologies, a US headquartered leader in software products, as Managing Director of India. Karpe has authored a book on business strategies, titled “BOND to BABA”, which received rave reviews and was listed by Amazon in its prestigious list of “Memorable books of 2018”. He was the Chairman, Western Region of the Confederation of Indian Industries (CII) for 2017-18, an honorary position. Besides his day job as a VC, Karpe is passionate about supporting theatre and has produced two Marathi plays, which have received wide acclaim. An avid follower of F1 racing, he switches off his mobile phone during race days.",
     id: ""
   },
   {
     name: "Anil Joshi",
     pic: "images/speakers/images-speakers/anil-joshi.jpg",
-    about: "",
+    about: "Anil Joshi is the Founder and Managing Partner at Unicorn India Ventures, a leading Venture Capital Fund focusing on early-stage investments in tech companies. With over two decades of experience in the field, Anil pioneered angel investments in India as the head of operations and President at Mumbai Angels, one of the most reputable and prolific Angel Investment forums in India. As an early mover in early 2000 in this segment, Anil was investing in budding companies even before venture investment had taken any formal shape in India. Within the start-up ecosystem, Anil has been at the helm of over 100 venture-financing deals. He serves on the board of several companies in the field of Fintech, Robotic, Meditech, IOT, Bigdata, SaaS and is involved with multiple incubation centres as a board member and mentor in India as well as internationally. Additionally, he also advices the government and industry bodies on start-ups regarding policy. Young entrepreneurs draw upon his vast experience for guidance and strategic direction for their own start-ups. As an accomplished public speaker with informed opinions about the sector, he is much sought after at start-up events both in the domestic and the international circuit. His speaking engagements have taken him to countries like Singapore, Malaysia, USA, Canada, China, France, Australia and the Middle East",
+    id: ""
+  },{
+    name: "Harsh Pamnani",
+    pic: "images/speakers/images-speakers/Harsh-Picture-RC-Fellowship.jpg",
+    about:
+      "Author of Booming Brands and Booming Digital Stars",
+    id: ""
+  },{
+    name: "Aman Dhall",
+    pic: "images/speakers/aman-dhall.jpg",
+    about:
+    "Aman Dhall is an Indian communications specialist, widely known for his role in building the insurtech brand, Policybazaar.com.The company has emerged as a go to digital platform for death, disease & disability products in India, and is currently the most valued insurtech entity in the world, after its recent listing on the Indian bourses.",
     id: ""
   },
   {
     name: "Ranjith Mukundan",
     pic: "images/speakers/images-speakers/ranjith.jpg",
-    about: "",
+    about: "Ranjith, an alum from Bangalore Institute of Technology, is the CEO and Co-founder at Stellapps Technologies. Earlier, he was the Practice Head at Wipro in the Communications domain. Ranjith is currently working on digitizing the dairy industry.",
     id: ""
   },
   {
     name: "Vipin Pathak",
     pic: "images/speakers/images-speakers/vipin-pathak.jpg",
-    about: "",
+    about: "Mr. Vipin Pathak is the Co-founder and CEO of Care24. Mr. Vipin Pathak (BT/CE/2006) was honored with the Businessworld Young Entrepreneur Award. Founded in 2014, Care24 is not only one of India’s top home healthcare companies but also one of India’s pioneering venture capital-backed startups in this space.",
     id: ""
   },
   {
     name: "Priya Prakash",
     pic: "images/speakers/images-speakers/priya-prakash.jpg",
-    about: "",
+    about: "Priya Prakash is a healthcare entrepreneur and the Founder and CEO of HealthSetGo. HealthSetGo is India's largest healthcare organisation for school with the vision to establish India's largest network of health promoting schools. HealthSetGo currently operates in over 77 cities across India with 250,000+ students and parents with it’s flagship program CARE which monitors the healthy growth of students at School and generates Intelligent insights for Parents to empower them to take care of their child’s health as well as impart the right Health Education customised to the age of the child. Priya is a Delhi State Level Weightlifter, Tedx Speaker, Crossfit L1 Trainer , and an avid health blogger. She was honoured as Forbes Under 30 Asia 2018 in Healthcare and Sciences and awarded the Unilever Young Entreprenuer of the Year in 2018.",
     id: ""
   },
   {
     name: "Tamanna Singh",
     pic: "images/speakers/images-speakers/Tamanna Singh, Founder & CEO, UberLux.jpg",
     about:
-      "",
+      "Tamanna Singh, is an Indian Business Woman, a President of India Awardee, Under 40 Top 40 business women awardee, a well-known mentor, motivational speaker, investor, philanthropist with over 20 yrs. Of experience. She is Founder and Managing Director of The Uberlux group of Companies .She along with her husband Col. Gautam Singh, formed UberLux in 2011, with the vision to pioneer the concept of affordable luxury in India. The company presently has seven brands under its wings .Recently, the company diversified its portfolio to foray into Real estate projects and exports in Australia. An MBA in HR & marketing, Tamanna also studied Cosmetology from Paris. She has conceptualized and executed a number of innovative brand management and global market entry strategies for some of the world’s best known brands as well as start-ups and entrepreneurs. She has also collaborated with leading thought leaders of Harvard Business School, Indian Institute of Management, Indian Institute of Technology and some other leading management institutes on case studies and teaching programmes. She contributes regularly for various articles for magazines, websites and papers on entrepreneurship. She is also a subject matter expert in Beauty, wellness, fashion, women entrepreneurship, scaling up businesses, negotiation skills, how to bootstrap your start-up, fund raising, pitch deck, etc. She has already empowered over 15,000 women through various platforms .Over the last 15 years she has been highly recognized and awarded both nationally and internationally for her work on women empowerment and upliftment.",
     id: ""
   },
   {
     name: "Amar Nagaram",
     pic: "images/speakers/images-speakers/amar-nagaram.jpg",
-    about: "",
+    about: "Amar Nagaram is an Indian Business Executive. He was the chief executive officer (CEO) of Myntra.com, succeeding Ananth Narayanan in 2019. Before becoming CEO, he was the vice president of Flipkart Technology, responsible for building and running the consumer products. He is regarded as one of the very vocal voices on technology and its role in modern business.",
     id: ""
   },
 
   {
     name: "Alok Bansal",
     pic: "images/speakers/images-speakers/Alok-Bansal.jpg",
-    about: "",
+    about: "Alok Bansal is the Whole-time Director & CFO, PB Fintech Limited that owns India’s leading insurtech brand Policybazaar.com & leading lending marketplace Paisabazaar.com. He heads various functions including corporate finance and controllership, tax, treasury, strategic planning, and analytics. He firmly believes that the primary responsibility of a CFO is to accomplish business goals rather than just concentrating on functional goals. According to him, the success of any business lies in working with a team with different mindsets, allowing them the flexibility and freedom to experiment, innovate and contribute. Alok’s core strengths lie in strategic thinking, process control, and execution. Prior to joining PolicyBazaar.com, Alok has worked in various cross-functional leadership roles with Mahindra & Mahindra, iGate Global Solutions and GE. He was recognized as one of the top 100 CFOs in the country by the CFO India Magazine in 2016. Alok has a special interest in science and technology, economic empowerment, education and civil rights.",
     id: ""
   },
 
   {
     name: "Niranjan Gupta",
     pic: "images/speakers/images-speakers/niranjan.jpg",
-    about: "",
+    about: "Niranjan Gupta is CFO at Hero Motocorp Limited and plays Senior leadership roles in finance and procurement , covering a wide range from start up businesses ( water purifier in HUL ) to large scale established categories ( Home & personal care ) , and covering both local and global responsibilities. Width of experience covers wide ranging finance roles ; P/L balance sheet management, acquisitions and disposals, setting up financially viable models for start ups, driving financial metrics/performance in business and controls & governance. Experience in procurement has given deep understanding of supply chain, and external market forces which influence business performance; a crucial element for a modern day CFO.",
     id: ""
   },
 
@@ -415,20 +427,20 @@ arrPresent.push(
     name: "Saket Modi",
     pic: "images/speakers/images-speakers/Saket Modi, Founder & CEO, Lucideus.jpg",
     about: "",
-    id: ""
+    id: "Saket Modi is the Co-founder and CEO of Safe Security, a Cybersecurity and Digital Business Risk Quantification platform company. A computer science engineer by education, he founded Safe Security in 2012 while in his final year of engineering. Incubated in IIT Bombay and backed by Cisco’s former Chairman and CEO John Chambers, Safe Security protects the digital infrastructure of multiple Fortune 500 companies around the world with its cyber risk measurement and mitigation platform called SAFE. Saket is a part of Fortune Magazine’s 40-under-40, Entrepreneur Magazine’s 35-under-35, Forbes Magazine’s 30-under-30 lists, among others."
   },
 
   {
     name: "Sandeep Jain",
     pic: "images/speakers/images-speakers/Sandeep Jain, CEO, GFG.jpg",
-    about: "",
+    about: "The founder and CEO of GeeksforGeeks, a widely popular computer science portal created by geeks, for geeks. A postgraduate from IIT Roorkee, he has worked at D.E Shaw and Co., and at JIIT Noida as an assistant professor. His passion for imparting quality and affordable programming knowledge and a vision to build a gigantic network of geeks has helped GeeksforGeeks mark its incredible presence in the e-learning world, helping innumerable students and coding enthusiasts build a successful career in the tech world.",
     id: ""
   },
 
   {
     name: "Tapan Singhel",
     pic: "images/speakers/images-speakers/Tapan-singhel.jpg",
-    about: "",
+    about: "Tapan Singhel has a rich experience of over 30 years in the insurance industry. He is one of the founding members of Bajaj Allianz General Insurance and has been with the Company for over 20 years. As its MD & CEO for close to 10 years, Tapan has built the organisation to where it is today with close to 11 crore customers and a wide distribution network spanning across more than 1,000 locations across the country. Customer obsession and passion to do good for the people are what drives Tapan and his success in the industry. Under his aegis, the Company has been recognised as one of the best in Asia. An avid social media influencer, Tapan has over 6.8 lakh followers on LinkedIn and has been recognised as the LinkedIn’s Top Voice in India in both 2018 and 2019. He also chairs the CII National Committee on Insurance and Pensions. He recently won the ‘Lifetime Achievement Award’ at the 25 th Asia Insurance Industry Awards 2021. He has also been honoured as the ‘Personality of the Year’ at Quantic’s BFSI Excellence Awards 2021, India Insurance Summit & Awards 2019, 22nd Asia Insurance Industry Awards 2018 and Indian Insurance Summit 2017 and the ‘Most Promising Business Leader’ of Asia at The Economic Times Global Business Summit 2018. He has also won ‘CEO of the Year’ for India and Asia-Pacific region at the IDC Future Enterprise Awards 2021, 3 rd Annual Insurance India Summit & Awards 2018 and Insurance Asia Awards.",
     id: ""
   },
 
@@ -449,7 +461,7 @@ arrPresent.push(
   {
     name: "Suchishree Chatterjee",
     pic: "images/speakers/images-speakers/Suchishree-Chatterjee-scaled.jpg",
-    about: "",
+    about: "Suchi is a technologist with over 25 years’ experience. Suchi has taken over as the Head of India Technology Centre as well as the CIO for RFT Global Data Ingestion She is globally responsible for data platforms and services within the Risk, Finance, and Treasury Technology organization and responsible for the execution of the Technology Centre strategy for India. A post-graduate in Computer Science, Suchi has extensive experience in implementing, developing, and managing trade lifecycle platforms across all asset classes and has a very good understanding of the Front2Back data and process flows within the Investment and Corporate Banking domains. For the past few years, she has been working to simplify the fragmented data sourcing landscape across the key reporting functions within the Bank. At the same time, she has helped build the India technology Centre and worked on its vision and mission. She is passionate about the Diversity & Inclusion agenda within the bank and is the sponsor for the India franchise across DbGO, dbEnable and dbPride pillars.",
     id: ""
   },
 
@@ -470,21 +482,21 @@ arrPresent.push(
   {
     name: "Mikhil Innani",
     pic: "images/speakers/images-speakers/mikhil.jpg",
-    about: "",
+    about: "Mikhil Innani is the Managing Director & CEO at Apollo Finvest, a public listed NBFC. He has 10+ years experience of building products from scratch to an unprecedented scale of 250+ million monthly active users. He is currently building the \"AWS for Lending\" platform which enables any company to start digital lending in under 48 hours Prior to Apollo Finvest, Mikhil headed consumer products and growth at Hotstar (India’s largest OTT platform) and CouponDunia (Acquired by Times Internet). He also co-founded PharmEasy (India’s largest online medicine delivery startup valued at >$1 Billion) Mikhil holds a Master's degree in Information Systems from Carnegie Mellon University and a Bachelor's degree from Mumbai University",
     id: ""
   },
 
   {
     name: "Vishal Chaudhary",
     pic: "images/speakers/images-speakers/vishal.jpg",
-    about: "",
+    about: "Vishal Chaudhary is Co-Founder at Zetwerk. He has worked as Lead, Organization & Business Engine (OBE) at RIVIGO, as Manager at ITC Limited. He holds Master’s from Indian Institute of Technology, Kharagpur.",
     id: ""
   },
 
   {
     name: "Harishankaran",
     pic: "images/speakers/images-speakers/Harishankaran, Founder, InterviewStreet(Hackerrank).jpg",
-    about: "",
+    about: "Harishankaran is Co-founder and CTO at HackerRank. He has Scaled the product from 0 users to thousands of users per day and wrote an in-house code checker which is the core of hackerrank.com. Responsible for product delivery and management. He has also worked in IBM as a Software Developer and Build Engineer and with DB2, Websphere, Cognos, and Datastage",
     id: ""
   },
   {
