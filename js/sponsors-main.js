@@ -36,23 +36,23 @@ spons.push(
     {
         name: "Sponsor Bull",
         pic: "images/sponsors/sponsor-img/sponsor-bull.jpg",
-        cat: "Marketing Partner",
+        cat: "Outreach and Marketing Partner",
         url: "https://www.linkedin.com/company/sponsorbull/",
         id: ""
     },
     {
         name: "Binance",
         pic: "images/sponsors/sponsor-img/binance.jpg",
-        cat: "",
+        cat: "Copowered",
         url: "https://www.binance.com/en",
         id: ""
     },
     
     {
-        name: "Sponsor Bull",
-        pic: "images/sponsors/sponsor-img/sponsor-bull.jpg",
-        cat: "Outreach Partner",
-        url: "https://www.linkedin.com/company/sponsorbull/",
+        name: "Townscript",
+        pic: "images/sponsors/sponsor-img/townscript.png",
+        cat: "Ticketing Partner",
+        url: "https://ec.linkedin.com/company/townscript",
         id: ""
     },
     {
