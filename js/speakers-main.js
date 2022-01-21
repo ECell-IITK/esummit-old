@@ -340,6 +340,7 @@ arrPresent.push(
     pic: "images/speakers/images-speakers/srikant.jpg",
     about: "",
     id:""
+  },
   {
     name: "Manpreet Bhuie",
     pic: "images/speakers/images-speakers/manpreet.jpg",
