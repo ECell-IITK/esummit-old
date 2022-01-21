@@ -335,12 +335,12 @@ arrPresent.push(
     about: "A banking & finance veteran with over 15 years of experience in management consulting and strategy, Amit Kumar Agarwal is the Co-founder and CEO of NoBroker.com, the world’s largest peer-to-peer real estate portal. He is responsible for defining and guiding the overall vision and direction at NoBroker.com and spearheads the company’s corporate strategies. Amit is an alumnus of the Indian Institute of Technology, Kanpur, and IIM, Ahmedabad. He was associated with the Management Consulting division of PricewaterhouseCoopers’ Banking and Financial Services vertical. He worked with many leading Indian and foreign banks during his eight years at PwC, leading consulting teams and working directly with top CXOs on critical aspects such as formulating business strategy and enhancing on-ground profitability.",
     id: ""
   },
-  {
-    name: "Abhisht Arora",
-    pic: "images/speakers/images-speakers/abhisht.jpg",
-    about: "",
-    id: ""
-  },
+  // {
+  //   name: "Abhisht Arora",
+  //   pic: "images/speakers/images-speakers/abhisht.jpg",
+  //   about: "",
+  //   id: ""
+  // },
   {
     name: "Manpreet Bhuie",
     pic: "images/speakers/images-speakers/manpreet.jpg",
@@ -444,19 +444,19 @@ arrPresent.push(
     id: ""
   },
 
-  {
-    name: "Sanjay Mohan",
-    pic: "images/speakers/images-speakers/sanjay.jpg",
-    about: "",
-    id: ""
-  },
+  // {
+  //   name: "Sanjay Mohan",
+  //   pic: "images/speakers/images-speakers/sanjay.jpg",
+  //   about: "",
+  //   id: ""
+  // },
 
-  {
-    name: "Ashutosh Gupta",
-    pic: "images/speakers/images-speakers/ashutosh.jpg",
-    about: "",
-    id: ""
-  },
+  // {
+  //   name: "Ashutosh Gupta",
+  //   pic: "images/speakers/images-speakers/ashutosh.jpg",
+  //   about: "",
+  //   id: ""
+  // },
 
   {
     name: "Suchishree Chatterjee",
@@ -465,19 +465,19 @@ arrPresent.push(
     id: ""
   },
 
-  {
-    name: "Ruchi Deepak",
-    pic: "images/speakers/images-speakers/Ruchi-Deepak.jpg",
-    about: "",
-    id: ""
-  },
+  // {
+  //   name: "Ruchi Deepak",
+  //   pic: "images/speakers/images-speakers/Ruchi-Deepak.jpg",
+  //   about: "",
+  //   id: ""
+  // },
 
-  {
-    name: "Rahul Garg",
-    pic: "images/speakers/images-speakers/rahul.jpg",
-    about: "",
-    id: ""
-  },
+  // {
+  //   name: "Rahul Garg",
+  //   pic: "images/speakers/images-speakers/rahul.jpg",
+  //   about: "",
+  //   id: ""
+  // },
 
   {
     name: "Mikhil Innani",
@@ -499,18 +499,18 @@ arrPresent.push(
     about: "Harishankaran is Co-founder and CTO at HackerRank. He has Scaled the product from 0 users to thousands of users per day and wrote an in-house code checker which is the core of hackerrank.com. Responsible for product delivery and management. He has also worked in IBM as a Software Developer and Build Engineer and with DB2, Websphere, Cognos, and Datastage",
     id: ""
   },
-  {
-    name: "Murugavel Janakiraman",
-    pic: "images/speakers/images-speakers/murugavel.jpg",
-    about: "",
-    id: ""
-  },
-  {
-    name: "Rajneesh Jain",
-    pic: "images/speakers/images-speakers/Rajneesh.jpg",
-    about: "",
-    id: ""
-  },
+  // {
+  //   name: "Murugavel Janakiraman",
+  //   pic: "images/speakers/images-speakers/murugavel.jpg",
+  //   about: "",
+  //   id: ""
+  // },
+  // {
+  //   name: "Rajneesh Jain",
+  //   pic: "images/speakers/images-speakers/Rajneesh.jpg",
+  //   about: "",
+  //   id: ""
+  // },
   {
     name: "Srikant Gokhale",
     pic: "images/speakers/images-speakers/srikant.jpg",
