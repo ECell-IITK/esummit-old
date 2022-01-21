@@ -146,6 +146,13 @@ spons.push(
         url: "https://www.jagran.com/",
         id: ""
     },
+    {
+        name: "Airmeet",
+        pic: "images/sponsors/sponsor-img/airmeet.jpg",
+        cat: "",
+        url: "https://www.airmeet.com/",
+        id: ""
+    },
     
     // {
     //     name: "Department of Service and Technology, Govt. of India",
