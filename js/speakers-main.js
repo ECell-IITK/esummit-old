@@ -510,6 +510,18 @@ arrPresent.push(
     pic: "images/speakers/images-speakers/Rajneesh.jpg",
     about: "",
     id: ""
+  },
+  {
+    name: "Srikant Gokhale",
+    pic: "images/speakers/images-speakers/srikant.jpg",
+    about: "",
+    id: ""
+  },
+  {
+    name: "Jayesh Parekh",
+    pic: "images/speakers/images-speakers/jayesh.jpg",
+    about: "",
+    id: ""
   }
 );
 
