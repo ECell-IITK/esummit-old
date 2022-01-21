@@ -425,8 +425,8 @@ arrPresent.push(
   {
     name: "Saket Modi",
     pic: "images/speakers/images-speakers/Saket Modi, Founder & CEO, Lucideus.jpg",
-    about: "",
-    id: "Saket Modi is the Co-founder and CEO of Safe Security, a Cybersecurity and Digital Business Risk Quantification platform company. A computer science engineer by education, he founded Safe Security in 2012 while in his final year of engineering. Incubated in IIT Bombay and backed by Cisco’s former Chairman and CEO John Chambers, Safe Security protects the digital infrastructure of multiple Fortune 500 companies around the world with its cyber risk measurement and mitigation platform called SAFE. Saket is a part of Fortune Magazine’s 40-under-40, Entrepreneur Magazine’s 35-under-35, Forbes Magazine’s 30-under-30 lists, among others."
+    about: "Saket Modi is an entrepreneur, co-founder and CEO of Safe Security, a cybersecurity and digital business risk quantification company, based out of Palo Alto, California.",
+    id: ""
   },
 
   {
@@ -513,7 +513,7 @@ arrPresent.push(
   {
     name: "Jayesh Parekh",
     pic: "images/speakers/images-speakers/jayesh.jpg",
-    about: "",
+    about: "Mr Jayesh Parekh is a Managing Partner at Good StartUp, an Alternate Protein VC fund manager. He was a Co-Founder of Sony Entertainment Television. He is a board member of Aavishkaar India Fund 2, Milaap and One Animation. Mr Jayesh is an active angel investor, who has invested in various Venture Capital Funds. He spent 12 years at IBM in Houston (USA) and Singapore and was a part of the IBM Offshore team that brought IBM back to India.",
     id: ""
   }
 );
