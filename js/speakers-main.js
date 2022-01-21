@@ -335,12 +335,11 @@ arrPresent.push(
     about: "A banking & finance veteran with over 15 years of experience in management consulting and strategy, Amit Kumar Agarwal is the Co-founder and CEO of NoBroker.com, the world’s largest peer-to-peer real estate portal. He is responsible for defining and guiding the overall vision and direction at NoBroker.com and spearheads the company’s corporate strategies. Amit is an alumnus of the Indian Institute of Technology, Kanpur, and IIM, Ahmedabad. He was associated with the Management Consulting division of PricewaterhouseCoopers’ Banking and Financial Services vertical. He worked with many leading Indian and foreign banks during his eight years at PwC, leading consulting teams and working directly with top CXOs on critical aspects such as formulating business strategy and enhancing on-ground profitability.",
     id: ""
   },
-  // {
-  //   name: "Abhisht Arora",
-  //   pic: "images/speakers/images-speakers/abhisht.jpg",
-  //   about: "",
-  //   id: ""
-  // },
+  {
+    name: "Srikant Gokhale",
+    pic: "images/speakers/images-speakers/srikant.jpg",
+    about: "",
+    id:""
   {
     name: "Manpreet Bhuie",
     pic: "images/speakers/images-speakers/manpreet.jpg",
@@ -511,12 +510,6 @@ arrPresent.push(
   //   about: "",
   //   id: ""
   // },
-  {
-    name: "Srikant Gokhale",
-    pic: "images/speakers/images-speakers/srikant.jpg",
-    about: "",
-    id: ""
-  },
   {
     name: "Jayesh Parekh",
     pic: "images/speakers/images-speakers/jayesh.jpg",
