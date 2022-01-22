@@ -373,12 +373,7 @@ arrPresent.push(
   },{
     name: "Aman Dhall",
     pic: "images/speakers/aman-dhall.jpg",
-    about:"Aman Dhall is founder of award-winning global integrated communications consultancy, CommsCredible. Through his venture, Aman is trying to build mutual trust within the corporate and media community, by curating stories that matter for the ecosystem.
-
-In his last role, he was the story maker in chief for world’s most valued insurtech brand Policybazaar.com. He led their storytelling in their business journey from valuation of $100 Mn in 2014 to over $2bn in 2020.
-In 2019, Exchange4Media recognised Aman among India's most influential gamechangers in the corporate communications and PR field.  He has also been identified as India's best young talent from the field of marketing, advertising, public relations, and media, in various ‘40 under 40’ lists by media houses.
-
-Aman is an alumnus of Delhi University and Loughborough University, UK. He has been a sportsperson and a journalist early in his career.",
+    about:"",
     id: ""
   },
   {
