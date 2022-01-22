@@ -129,7 +129,7 @@ var sponsors_gallery = document.getElementById("sponsors_gallery");
         id: ""
     }, {
         name: "CEO Magazine",
-        pic: "images/sponsors/sponsor-img/ceo-magazine.jpg",
+        pic: "images/sponsors/sponsor-img/ceo-magazine.jpeg",
         cat: "Media Partners",
         url: "https://www.theceomagazine.com/",
         id: ""
@@ -145,6 +145,12 @@ var sponsors_gallery = document.getElementById("sponsors_gallery");
         pic: "images/sponsors/sponsor-img/aglasem.jpg",
         cat: "Media Partners",
         url: "https://aglasem.com/",
+        id: ""
+    },{
+        name: "Startup India Magazine",
+        pic: "images/sponsors/sponsor-img/startup-india.jpg",
+        cat: "Media Partners",
+        url: "https://www.startupindiamagazine.com/",
         id: ""
     },{
         name: "Airmeet",
@@ -410,6 +416,7 @@ var sponsors_gallery = document.getElementById("sponsors_gallery");
     // }
 
 );
+
 //Assign id to each element of the speaker sponsay=> s0, s1, s2 etc
 //and adds the respective speaker
 for (var i = 0; i < spons.length; i++) {
